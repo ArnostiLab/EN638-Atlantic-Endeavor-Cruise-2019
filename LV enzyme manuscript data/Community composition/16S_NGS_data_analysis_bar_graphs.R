@@ -19,6 +19,7 @@ library(plyr)
 library(reshape2)
 library(grid)
 library(readxl)
+library(colorspace)
 
 
 #Load ggpattern and magick packages so that patterns can be added over colors
@@ -30,17 +31,11 @@ library(magick)
 library(ggh4x)
 
 ###################################################################################                                                                                #
-#                        Read in data for unamended mesocosms                     #                                                                                #
-###################################################################################
-
-InputData_dB_Stagged_5Perc <- read_xlsx("EN638_norm_dB_5Perc_averraged_stagged.xlsx")
-InputData_dD_Stagged_5Perc <- read_xlsx("EN638_norm_dD_5Perc_averraged_stagged.xlsx")
-
-###################################################################################                                                                                
-#                         Read in data for amended mesocosms                      #                                                                                
+#                            Read in data for mesocosms                           #                                                                                #
 ###################################################################################
 
 InputData_LV_dA_Stagged_5Perc <- read_xlsx("EN638_LV_dA_norm_5Perc_stagged.xlsx")
+InputData_LV_dB_Stagged_5Perc <- read_xlsx("EN638_LV_dB_norm_5Perc_stagged.xlsx")
 InputData_LV_dC_Stagged_5Perc <- read_xlsx("EN638_LV_dC_norm_5Perc_averraged_stagged.xlsx")
 
 ###################################################################################
@@ -62,7 +57,7 @@ scale_fill_bacteria <- function(...){
                         
                         "cornflowerblue", "dodgerblue1", "dodgerblue3", "blue1", "blue2", "blue3", "dodgerblue1", "dodgerblue2", "dodgerblue3",
                         "blue1", "blue2", "blue3", "dodgerblue1", "dodgerblue2", "dodgerblue3", "dodgerblue4", "dodgerblue1", "dodgerblue2", 
-                        "blue1", "blue2", "blue1", "blue4", "dodgerblue2", "dodgerblue3", "dodgerblue1", "blue2", "dodgerblue1", 
+                        "blue1", "blue2", "blue1", "blue4", "dodgerblue2", "dodgerblue3", "dodgerblue1", "blue2", "dodgerblue3", "dodgerblue1", 
                         
                         "yellow", "gold1", "gold2", "gold3", "yellow1", "yellow2", "yellow3", "gold1", "gold2", "gold3", "yellow1", "yellow2",
                         "yellow3", "gold1", "yellow3", "yellow2", "yellow4", "yellow3", "gold2", "yellow3", "gold2", "gold2",
@@ -99,7 +94,7 @@ scale_fill_bacteria <- function(...){
                         "Alphaproteobacteria <5%", "Ascidiaceihabitans", "Planktomarina", "Micavibrionaceae uncultured", "Rhodobacteraceae", "Lacimonas", "Shimia",
                         "Sulfitobacter", "Thalassobius", "Rhodobacteraceae uncultured", "AEGEAN-169 marine group", "Rickettsiales S25-593", "SAR11 clade I", 
                         "SAR11 clade I uncultured", "SAR11 clade Ia", "SAR11 clade Ib", "SAR11 clade II", "SAR11 clade IV", "Amylibacter", "Dinoroseobacter",
-                        "SAR116 clade", "Sagittulla", "SAR11 clade IV", "Methylobacterium-Methylorobrum", "Magnetospiraceae uncultured", "SD2D12", "Methylorubrum",
+                        "SAR116 clade", "Sagittulla", "SAR11 clade IV", "Methylobacterium-Methylorobrum", "Magnetospiraceae uncultured", "SD2D12", "SM2D12", "Methylorubrum",
                         
                         "Bacteroidota <5%", "Saprospiraceae uncultured", "Aurantivirga", "Dokdonia", "Flavicella", "Flavobacterium", "Leeuwenhoekiella",
                         "Lutibacter", "Maribacter", "Polaribacter", "Tenacibaculum", "Flavobacteriaceae uncultured", "Winogradskyella", "Cryomorphaceae uncultured",
@@ -184,7 +179,7 @@ scale_pattern_type_bacteria <- function(...){
                         'horizontalsaw', 'gray100', 'gray100', 'gray100', 'gray100', 'gray100', 'gray100',
                         'rightshingle', 'gray100', 'gray100', 'gray100', 'gray100', 'gray100', 
                         'gray100', 'hexagons', 'circles', 'gray100', 'gray100', 'gray100', 'gray100', 
-                        'gray100', 'gray100', 'gray100', 'gray100', 'gray100', 'gray100', 'gray100',
+                        'gray100', 'gray100', 'gray100', 'gray100', 'gray100', 'gray100', 'gray100', 'gray100',
                         
                         'verticalbricks', 'gray100', 'gray100', 'gray100', 'gray100', 'gray100', 'gray100', 
                         'gray100', 'gray100', 'smallfishscales', 'left45', 'right45', 'gray100', 'gray100',
@@ -222,7 +217,7 @@ scale_pattern_type_bacteria <- function(...){
                         "Alphaproteobacteria <5%", "Ascidiaceihabitans", "Planktomarina", "Micavibrionaceae uncultured", "Rhodobacteraceae", "Lacimonas", "Shimia",
                         "Sulfitobacter", "Thalassobius", "Rhodobacteraceae uncultured", "AEGEAN-169 marine group", "Rickettsiales S25-593", "SAR11 clade I", 
                         "SAR11 clade I uncultured", "SAR11 clade Ia", "SAR11 clade Ib", "SAR11 clade II", "SAR11 clade IV", "Amylibacter", "Dinoroseobacter",
-                        "SAR116 clade", "Sagittulla", "SAR11 clade IV", "Methylobacterium-Methylorobrum", "Magnetospiraceae uncultured", "SD2D12", "Methylorubrum",
+                        "SAR116 clade", "Sagittulla", "SAR11 clade IV", "Methylobacterium-Methylorobrum", "Magnetospiraceae uncultured", "SD2D12", "SM2D12", "Methylorubrum",
                         
                         "Bacteroidota <5%", "Saprospiraceae uncultured", "Aurantivirga", "Dokdonia", "Flavicella", "Flavobacterium", "Leeuwenhoekiella",
                         "Lutibacter", "Maribacter", "Polaribacter", "Tenacibaculum", "Flavobacteriaceae uncultured", "Winogradskyella", "Cryomorphaceae uncultured",
@@ -259,7 +254,7 @@ scale_pattern_type_bacteria <- function(...){
 ###################################################################################
 
 #Factor data and define levels
-InputData_LV_dA_Stagged_5Perc$IncubationTime <- factor(InputData_LV_dA_Stagged_5Perc$IncubationTime, levels=c("0", "1", "2", "3", "4"), labels=c("2", "5", "7", "12", "17"))
+InputData_LV_dA_Stagged_5Perc$IncubationTime <- factor(InputData_LV_dA_Stagged_5Perc$IncubationTime, levels=c("0", "1", "2", "3", "4"), labels=c("0", "3", "5", "10", "15"))
 InputData_LV_dA_Stagged_5Perc$Substrate_f <- factor(InputData_LV_dA_Stagged_5Perc$Substrate, levels=c("Pullulan", "Laminarin", "Xylan", "Fucoidan", "Arabinogalactan", "Chondroitin", "Control"), 
                                                                                              labels=c("Pullulan", "Laminarin", "Xylan", "Fucoidan", "Arabinogalactan", "Chondroitin", "Amended Meso"))
 InputData_LV_dA_Stagged_5Perc$TaxonShort_f <- factor(InputData_LV_dA_Stagged_5Perc$TaxonShort, levels=c("Gammaproteobacteria", "Gammaproteobacteria <5%",
@@ -303,8 +298,15 @@ InputData_LV_dA_Stagged_5Perc$TaxonShort_f <- factor(InputData_LV_dA_Stagged_5Pe
 InputData_LV_dA_Stagged_5Perc$Station_f <- factor(InputData_LV_dA_Stagged_5Perc$Station, levels = c("18", "19", "20"))
 InputData_LV_dA_Stagged_5Perc$Depth_f <- factor(InputData_LV_dA_Stagged_5Perc$Depth, levels = c("A"), labels=c("DCM"))
 
+#Filter data - keep only Amended Mesos
+InputData_LV_dA_Meso_Filt <- InputData_LV_dA_Stagged_5Perc %>% 
+  filter(Substrate_f %in% c("Amended Meso"))
+
+#Relabel Mesocosm numbers to Amend1, Amend2, Amend3, and Unamend
+InputData_LV_dA_Meso_Filt$Mesocosm_f <- factor(InputData_LV_dA_Meso_Filt$Mesocosm, levels=c("1", "2", "3", "4"), labels=c("Amend1", "Amend2", "Amend3", "Unamend"))
+
 #Creating the bar chart with the colors and patterns overlapping
-Barchart_LV_FLAPS_stagged_dA_Genus_5Perc <- ggplot(subset(InputData_LV_dA_Stagged_5Perc, Mesocosm %in% c("1")), aes(x=IncubationTime, y=ReadAbundance, fill=TaxonShort_f)) +
+Barchart_LV_Meso_stagged_dA_Genus_5Perc <- ggplot(InputData_LV_dA_Meso_Filt, aes(x=IncubationTime, y=ReadAbundance, fill=TaxonShort_f)) +
   
   geom_bar_pattern(position = "stack",
                    stat = "identity",
@@ -316,29 +318,132 @@ Barchart_LV_FLAPS_stagged_dA_Genus_5Perc <- ggplot(subset(InputData_LV_dA_Stagge
   scale_fill_bacteria(guide = "none") +
   scale_pattern_type_bacteria(guide = "none") +
   scale_y_continuous(limits=c(0,101)) +
-  facet_grid(vars(Station_f), vars(Substrate_f)) + 
+  facet_grid(vars(Station_f), vars(Mesocosm_f)) + 
   theme_test(base_size = 16) +
   labs(x = "Incubation time [d]", y = "Relative read abundance [%]")
 
-print(Barchart_LV_FLAPS_stagged_dA_Genus_5Perc)
+print(Barchart_LV_Meso_stagged_dA_Genus_5Perc)
 
 #Saving as an editable pdf
-ggsave(filename="EN638_LV_FLAPS_stagged_dA_Genus_5Perc_with_patterns_legend.pdf", plot=Barchart_LV_FLAPS_stagged_dA_Genus_5Perc, width=12, height=10, device=cairo_pdf)
+ggsave(filename="EN638_LV_Mesos_stagged_dA_Genus_5Perc_with_patterns.pdf", plot=Barchart_LV_Meso_stagged_dA_Genus_5Perc, width=12, height=10, device=cairo_pdf)
 
 #For use when you want a legend:
 #scale_fill_bacteria(guide = guide_legend(name = "taxa")) +
 #scale_pattern_type_bacteria(guide = guide_legend(override.aes = list(fill = "white")))
 
 #Note that the control here is actually samples directly from the 20 L amended mesocosm, not from a smaller incubation run in parallel with the 
-#FLA-PS incubations that contains no substrate. This means that the timepoints for the Control here are also different than those for the
-#FLA-PS incubations - they should be 0, 3, 5, 10, 15 (no 15 d sample for stn 18 dA)
+#FLA-PS incubations that contains no substrate. 
+
+#The controls (which were relabeled to Amended Mesos) have timepoints of 0, 3, 5, 10, 15 (no 15 d sample for stn 18 dA). FLA-PS incubations,
+#which are fluorescently-labeled polysaccharide incubations created with water sampled from Mesocosm Amend1, have timepoints of 
+#This means that the timepoints for the Control here are also different than those for the
+#2, 5, 7, 12, 17
+
+###################################################################################
+#       Create barchart - Amended dB (Oxygen minimum) 5% Genus level              #
+###################################################################################
+#Factor data and define levels
+InputData_LV_dB_Stagged_5Perc$IncubationTime <- factor(InputData_LV_dB_Stagged_5Perc$IncubationTime, levels=c("0", "1", "2", "3", "4"), labels=c("0", "3", "5", "10", "15"))
+InputData_LV_dB_Stagged_5Perc$TaxonShort_f <- factor(InputData_LV_dB_Stagged_5Perc$TaxonShort, levels=c("Gammaproteobacteria <5%", "Coxiella",
+                                                                                                        "Alteromonas", 
+                                                                                                        "Colwellia", "Colwelliaceae uncultured", "Moritella", "Pseudoalteromonas", "Vibrio",
+                                                                                                        "Alcanivorax",
+                                                                                                        "KI89A clade", "Marinobacter",  
+                                                                                                        "Nitrincolaceae uncultured", "SUP05 cluster", "Oleispira",
+                                                                                                        "SAR86 clade", "Marinomonas", "Halomonas", "Woeseia",
+                                                                                                        
+                                                                                                        "Alphaproteobacteria <5%",
+                                                                                                        "Amylibacter", 
+                                                                                                        "Shimia",  
+                                                                                                        "Rhodobacteraceae uncultured", 
+                                                                                                        "SAR11 clade I uncultured", "SAR11 clade Ia", "SAR11 clade Ib", "SAR11 clade II",
+                                                                                                        "SAR11 clade IV", "Magnetospiraceae uncultured",
+                                                                                                        
+                                                                                                        "Bacteroidota <5%", "Aurantivirga",
+                                                                                                        "NS5 marine group", "Polaribacter", "Pseudofulvibacter",
+                                                                                                        "Tenacibaculum", "Flavobacteriaceae uncultured", "Flavirhabdus",
+                                                                                                        
+                                                                                                        "SAR324 clade", "SAR324 clade(Marine group B)", 
+                                                                                                        
+                                                                                                        "Actinobacteria <5%", "Sva0996 marine group",
+                                                                                                        
+                                                                                                        "Marinimicrobia (SAR406 clade)",
+                                                                                                        
+                                                                                                        "Chloroflexi <5%",
+                                                                                                        "SAR202 clade",
+                                                                                                        
+                                                                                                        "Firmicutes <5%", "Paenibacillus",
+                                                                                                        
+                                                                                                        "Patescibacteria <5%", "JGI 0000069-P22",
+                                                                                                        
+                                                                                                        "Planctomycetes <5%", "Phycisphaeraceae uncultured", "Blastopirellula",
+                                                                                                       
+                                                                                                        "Verrucomicrobia <5%",
+                                                                                                        "DEV007", "Roseibacillus",
+                                                                                                        
+                                                                                                        "other bacteria <5%"))
+
+
+InputData_LV_dB_Stagged_5Perc$Station_f <- factor(InputData_LV_dB_Stagged_5Perc$Station, levels = c("18", "19", "20"))
+InputData_LV_dB_Stagged_5Perc$Depth_f <- factor(InputData_LV_dB_Stagged_5Perc$Depth, levels = c("B"), labels=c("O2 Min"))
+
+#Using dplyr to relabel Bacteroidetes (it should be Bacteroidota) and SAR324 (it should be SAR324 clade)
+#This way the taxonomic names used is consistent across all data sets, which is important when we create the legend and bubble plot later in the code
+InputData_LV_dB_Stagged_5Perc <- InputData_LV_dB_Stagged_5Perc %>%
+  mutate(TaxonShort_f = recode(TaxonShort_f, "Bacteroidetes" = 'Bacteroidota', "Bacteroidetes <5%" = 'Bacteroidota <5%'))
+
+InputData_LV_dB_Stagged_5Perc <- InputData_LV_dB_Stagged_5Perc %>%
+  mutate(Phylum = recode(Phylum, "Bacteroidetes" = 'Bacteroidota'))
+
+InputData_LV_dB_Stagged_5Perc <- InputData_LV_dB_Stagged_5Perc %>%
+  mutate(Phylum = recode(Phylum, "SAR324" = 'SAR324 clade'))
+
+
+#Relabel Mesocosm numbers to Amend1, Amend2, Amend3, and Unamend
+InputData_LV_dB_Stagged_5Perc$Mesocosm_f <- factor(InputData_LV_dB_Stagged_5Perc$Mesocosm, levels=c("1", "2", "3", "4"), labels=c("Amend1", "Amend2", "Amend3", "Unamend"))
+
+#Creating the bar chart with the colors and patterns overlapping
+Barchart_LV_Meso_stagged_dB_Genus_5Perc <- ggplot(InputData_LV_dB_Stagged_5Perc, aes(x=IncubationTime, y=ReadAbundance, fill=TaxonShort_f)) +
+  
+  geom_bar_pattern(position = "stack",
+                   stat = "identity",
+                   color = "black", 
+                   pattern_fill = "black",
+                   pattern_spacing = 0.05,
+                   pattern = 'magick',
+                   aes(pattern_type = TaxonShort_f)) +
+  scale_fill_bacteria(guide = "none") +
+  scale_pattern_type_bacteria(guide = "none") +
+  scale_y_continuous(limits=c(0,101)) +
+  facet_grid(vars(Station_f), vars(Mesocosm_f)) + 
+  theme_test(base_size = 16) +
+  labs(x = "Incubation time [d]", y = "Relative read abundance [%]")
+
+print(Barchart_LV_Meso_stagged_dB_Genus_5Perc)
+
+#Saving as an editable pdf
+ggsave(filename="EN638_LV_Mesos_stagged_dB_Genus_5Perc_with_patterns.pdf", plot=Barchart_LV_Meso_stagged_dB_Genus_5Perc, width=12, height=10, device=cairo_pdf)
+
+#For use when you want a legend:
+#scale_fill_bacteria(guide = guide_legend(name = "taxa")) +
+#scale_pattern_type_bacteria(guide = guide_legend(override.aes = list(fill = "white")))
+
+#Note that the control here is actually samples directly from the 20 L amended mesocosm, not from a smaller incubation run in parallel with the 
+#FLA-PS incubations that contains no substrate. 
+
+#The controls (which were relabeled to Amended Mesos) have timepoints of 0, 3, 5, 10, 15 (no 15 d sample for stn 18 dA). FLA-PS incubations,
+#which are fluorescently-labeled polysaccharide incubations created with water sampled from Mesocosm Amend1, have timepoints of 
+#This means that the timepoints for the Control here are also different than those for the
+#2, 5, 7, 12, 17
+
+#No FLA-PS incubations for this depth, only mesocosms
 
 ###################################################################################
 #           Create barchart - Amended dC (Bottom) 5% Genus level                  #
 ###################################################################################
 
 #Factor data and define levels
-InputData_LV_dC_Stagged_5Perc$IncubationTime <- factor(InputData_LV_dC_Stagged_5Perc$IncubationTime, levels=c("0", "1", "2", "3", "4"), labels=c("2", "5", "7", "12", "17"))
+InputData_LV_dC_Stagged_5Perc$IncubationTime <- factor(InputData_LV_dC_Stagged_5Perc$IncubationTime, levels=c("0", "1", "2", "3", "4"), labels=c("0", "3", "5", "10", "15"))
 InputData_LV_dC_Stagged_5Perc$Substrate_f <- factor(InputData_LV_dC_Stagged_5Perc$Substrate, levels=c("Pullulan", "Laminarin", "Xylan", "Fucoidan", "Arabinogalactan", "Chondroitin", "Control"),
                                                                                              labels=c("Pullulan", "Laminarin", "Xylan", "Fucoidan", "Arabinogalactan", "Chondroitin", "Amended Meso"))
 InputData_LV_dC_Stagged_5Perc$TaxonShort_f <- factor(InputData_LV_dC_Stagged_5Perc$TaxonShort, levels=c("Gammaproteobacteria", "Gammaproteobacteria <5%",
@@ -373,7 +478,7 @@ InputData_LV_dC_Stagged_5Perc$Station_f <- factor(InputData_LV_dC_Stagged_5Perc$
 InputData_LV_dC_Stagged_5Perc$Depth_f <- factor(InputData_LV_dC_Stagged_5Perc$Depth, levels = c("C"), labels=c("Bottom"))
 
 #Using dplyr to relabel Bacteroidetes (it should be Bacteroidota), Marinimonas (it should be Marinimicrobia), and SAR324 (it should be SAR324 clade)
-#This way the taxonomic names used is consistent across all datasets, which is important when we create the legend and bubble plot later in the code
+#This way the taxonomic names used is consistent across all data sets, which is important when we create the legend and bubble plot later in the code
 InputData_LV_dC_Stagged_5Perc <- InputData_LV_dC_Stagged_5Perc %>%
   mutate(TaxonShort_f = recode(TaxonShort_f, "Bacteroidetes" = 'Bacteroidota', "Bacteroidetes <5%" = 'Bacteroidota <5%'))
 
@@ -386,8 +491,15 @@ InputData_LV_dC_Stagged_5Perc <- InputData_LV_dC_Stagged_5Perc %>%
 InputData_LV_dC_Stagged_5Perc <- InputData_LV_dC_Stagged_5Perc %>%
   mutate(Phylum = recode(Phylum, "SAR324" = 'SAR324 clade'))
 
+#Filter data - keep only Amended Mesos
+InputData_LV_dC_Meso_Filt <- InputData_LV_dC_Stagged_5Perc %>% 
+  filter(Substrate_f %in% c("Amended Meso"))
+
+#Relabel Mesocosm numbers to Amend1, Amend2, Amend3, and Unamend
+InputData_LV_dC_Meso_Filt$Mesocosm_f <- factor(InputData_LV_dC_Meso_Filt$Mesocosm, levels=c("1", "2", "3", "4"), labels=c("Amend1", "Amend2", "Amend3", "Unamend"))
+
 #Creating the bar chart with the colors and patterns overlapping
-Barchart_LV_FLAPS_stagged_dC_Genus_5Perc <- ggplot(subset(InputData_LV_dC_Stagged_5Perc, Mesocosm %in% c("1")), aes(x=IncubationTime, y=ReadAbundance, fill=TaxonShort_f)) +
+Barchart_LV_Meso_stagged_dC_Genus_5Perc <- ggplot(InputData_LV_dC_Meso_Filt, aes(x=IncubationTime, y=ReadAbundance, fill=TaxonShort_f)) +
   
   geom_bar_pattern(position = "stack",
                    stat = "identity",
@@ -399,14 +511,14 @@ Barchart_LV_FLAPS_stagged_dC_Genus_5Perc <- ggplot(subset(InputData_LV_dC_Stagge
   scale_fill_bacteria(guide = "none") +
   scale_pattern_type_bacteria(guide = "none") +
   scale_y_continuous(limits=c(0,101)) +
-  facet_grid(vars(Station_f), vars(Substrate_f)) + 
+  facet_grid(vars(Station_f), vars(Mesocosm_f)) + 
   theme_test(base_size = 16) +
   labs(x = "Incubation time [d]", y = "Relative read abundance [%]")
 
-print(Barchart_LV_FLAPS_stagged_dC_Genus_5Perc)
+print(Barchart_LV_Meso_stagged_dC_Genus_5Perc)
 
 #Saving as an editable pdf
-ggsave(filename="EN638_LV_FLAPS_stagged_dC_Genus_5Perc_with_patterns.pdf", plot=Barchart_LV_FLAPS_stagged_dC_Genus_5Perc, width=12, height=10, device=cairo_pdf)
+ggsave(filename="EN638_LV_Mesos_stagged_dC_Genus_5Perc_with_patterns.pdf", plot=Barchart_LV_Meso_stagged_dC_Genus_5Perc, width=12, height=10, device=cairo_pdf)
 
 
 #Note that the control here is actually samples directly from the 20 L amended mesocosm, not from a smaller incubation run in parallel with the 
@@ -415,234 +527,50 @@ ggsave(filename="EN638_LV_FLAPS_stagged_dC_Genus_5Perc_with_patterns.pdf", plot=
 
 
 ###################################################################################
-#            Create barchart - Unamended dB (DCM) 5% Genus level                  #
-###################################################################################
-
-#Factor data and define levels
-InputData_dB_Stagged_5Perc$IncubationTime <- factor(InputData_dB_Stagged_5Perc$IncubationTime, levels=c("0", "1", "3", "10"), labels=c("0", "1", "3", "10"))
-InputData_dB_Stagged_5Perc$Substrate_f <- factor(InputData_dB_Stagged_5Perc$Substrate, levels=c("Pullulan", "Laminarin", "Xylan", "Fucoidan", "Arabinogalactan", "Chondroitin", "Control"))
-InputData_dB_Stagged_5Perc$TaxonShort_f <- factor(InputData_dB_Stagged_5Perc$TaxonShort, levels=c("Gammaproteobacteria <5%",
-                                                                                                    "Alteromonas", 
-                                                                                                    "Colwellia", "Colwelliaceae uncultured", "Thalassotalea", "Pseudoalteromonas", "Vibrio",
-                                                                                                    "Marine Methylotrophic Group 3", "Methylophaga", "Pseudohongiella",
-                                                                                                    "SAR86 clade", 
-                                                                                                    
-                                                                                                    "Alphaproteobacteria <5%",
-                                                                                                    "Amylibacter", "Dinoroseobacter", "Lacimonas", 
-                                                                                                    "Shimia", 
-                                                                                                    "Rhodobacteraceae uncultured", "AEGEAN-169 marine group", 
-                                                                                                    "SAR11 clade I uncultured", "SAR11 clade Ia", "SAR11 clade Ib", "SAR11 clade II",
-                                                                                                    
-                                                                                                    "Bacteroidota <5%",
-                                                                                                    "Cryomorphaceae uncultured",
-                                                                                                    "Flavicella", "Formosa", 
-                                                                                                    "Maribacter", "NS4 marine group", "NS5 marine group", "Polaribacter",
-                                                                                                    "Tenacibaculum", "Flavobacteriaceae uncultured", "NS9 marine group",
-                                                                                                    
-                                                                                                    "SAR324 clade(Marine group B)", 
-                                                                                                    
-                                                                                                    "Actinobacteria <5%",
-                                                                                                    "Candidatus Actinomarina",  
-                                                                                                    
-                                                                                                    "Cyanobacteria <5%",
-                                                                                                    "Prochlorococcus MIT9313", "Synechococcus CC9902", 
-                                                                                                    
-                                                                                                    "Marinimicrobia (SAR406 clade)", 
-                                                                                                    
-                                                                                                    "Chloroflexi <5%",
-                                                                                                    "SAR202 clade",
-                                                                                                    
-                                                                                                    "Planctomycetes <5%", 
-                                                                                                    "CL500-3",
-                                                                                                    
-                                                                                                    "Verrucomicrobia <5%",
-                                                                                                    "DEV007", 
-                                                                                                    
-                                                                                                    "other bacteria <5%"))
-
-InputData_dB_Stagged_5Perc$Station_f <- factor(InputData_dB_Stagged_5Perc$Station, levels = c("18", "19", "20"))
-InputData_dB_Stagged_5Perc$Depth_f <- factor(InputData_dB_Stagged_5Perc$Depth, levels = c("B"), labels=c("DCM"))
-
-#Using dplyr to relabel Bacteroitoda (it should be Bacteroidota)
-InputData_dB_Stagged_5Perc <- InputData_dB_Stagged_5Perc %>%
-  mutate(Phylum = recode(Phylum, "Bacteroitoda" = 'Bacteroidota'))
-
-
-#Creating the bar chart with the colors and patterns overlapping
-Barchart_Unamend_FLAPS_stagged_dB_Genus_5Perc <- ggplot(InputData_dB_Stagged_5Perc, aes(x=IncubationTime, y=RelativeAbundance, fill = TaxonShort_f)) + 
-  
-  geom_bar_pattern(position = "stack",
-                   stat = "identity",
-                   color = "black", 
-                   pattern_fill = "black",
-                   pattern_spacing = 0.05,
-                   pattern = 'magick',
-                   aes(pattern_type = TaxonShort_f)) +
-  scale_fill_bacteria(guide = "none") +
-  scale_pattern_type_bacteria(guide = "none") +
-  scale_y_continuous(limits=c(0,101)) +
-  facet_grid(vars(Station_f), vars(Substrate_f)) + 
-  theme_test(base_size = 16) +
-  labs(x = "Incubation time [d]", y = "Relative read abundance [%]")
-
-print(Barchart_Unamend_FLAPS_stagged_dB_Genus_5Perc)
-
-#Saving as an editable pdf
-ggsave(filename="EN638_Unamended_FLAPS_stagged_DCM_Genus_5Perc_with_patterns.pdf", plot=Barchart_Unamend_FLAPS_stagged_dB_Genus_5Perc, width=12, height=10, device=cairo_pdf)
-
-
-#Note that the control here is from an incubation run in parallel with the FLA-PS 
-#incubations that contains no substrate, so the time points are the same as the FLA-PS time points
-
-###################################################################################
-#           Create barchart - Unamended dD (Bottom) 5% Genus level                #
-###################################################################################
-
-#Factor data and define levels
-InputData_dD_Stagged_5Perc$IncubationTime <- factor(InputData_dD_Stagged_5Perc$IncubationTime, levels=c("0", "1", "3", "10"), labels=c("0", "1", "3", "10"))
-InputData_dD_Stagged_5Perc$Substrate_f <- factor(InputData_dD_Stagged_5Perc$Substrate, levels=c("Pullulan", "Laminarin", "Xylan", "Fucoidan", "Arabinogalactan", "Chondroitin", "Control"))
-InputData_dD_Stagged_5Perc$TaxonShort_f <- factor(InputData_dD_Stagged_5Perc$TaxonShort, levels=c("Gammaproteobacteria <5%",
-                                                                                                  "Limnobacter", "Alteromonas", "Salinimonas",
-                                                                                                  "Colwellia", "Colwelliaceae uncultured", "Pseudoalteromonas", "Vibrio",
-                                                                                                  "Marine Methylotrophic Group 3", "Alcanivorax",
-                                                                                                  "Marinomonas", "Acinetobacter", "Pseudomonas", 
-                                                                                                  "Oleispira", "Saccharospirillaceae uncultured", "Thalassolituus", 
-                                                                                                  "SAR86 clade", "Sinobacterium",
-                                                                                                  
-                                                                                                  "Alphaproteobacteria <5%",
-                                                                                                  "Shimia", "Sulfitobacter", "Methylobacterium-Methylorubrum", 
-                                                                                                  "AEGEAN-169 marine group", 
-                                                                                                  "SAR11 clade I uncultured", "SAR11 clade Ia", "SAR11 clade Ib", "SAR11 clade II",
-                                                                                                  
-                                                                                                  "Bacteroidota <5%",
-                                                                                                  "Cryomorphaceae uncultured",
-                                                                                                  
-                                                                                                  "SAR324 clade(Marine group B)",
-                                                                                                  
-                                                                                                  "Marinimicrobia (SAR406 clade)",
-                                                                                                  
-                                                                                                  "Chloroflexi <5%",
-                                                                                                  "SAR202 clade",
-                                                                                                  
-                                                                                                  "Verrucomicrobia <5%",
-                                                                                                  "DEV007", 
-                                                                                                  
-                                                                                                  "other bacteria <5%"))
-
-InputData_dD_Stagged_5Perc$Station_f <- factor(InputData_dD_Stagged_5Perc$Station, levels = c("18", "19", "20"))
-InputData_dD_Stagged_5Perc$Depth_f <- factor(InputData_dD_Stagged_5Perc$Depth, levels = c("D"), labels=c("Bottom"))
-
-#Creating the bar chart with the colors and patterns overlapping
-Barchart_Unamend_FLAPS_stagged_dD_Genus_5Perc <- ggplot(InputData_dD_Stagged_5Perc, aes(x=IncubationTime, y=RelativeAbundance, fill=TaxonShort_f)) +
-  
-  geom_bar_pattern(position = "stack",
-                   stat = "identity",
-                   color = "black", 
-                   pattern_fill = "black",
-                   pattern_spacing = 0.05,
-                   pattern = 'magick',
-                   aes(pattern_type = TaxonShort_f)) +
-  scale_fill_bacteria(guide = "none") +
-  scale_pattern_type_bacteria(guide = "none") +
-  scale_y_continuous(limits=c(0,101)) +
-  facet_grid(vars(Station_f), vars(Substrate_f)) + 
-  theme_test(base_size = 16) +
-  labs(x = "Incubation time [d]", y = "Relative read abundance [%]")
-
-print(Barchart_Unamend_FLAPS_stagged_dD_Genus_5Perc)
-
-#Saving as an editable pdf
-ggsave(filename="EN638_Unamended_FLAPS_stagged_Bottom_Genus_5Perc_with_patterns.pdf", plot=Barchart_Unamend_FLAPS_stagged_dD_Genus_5Perc, width=12, height=10, device=cairo_pdf)
-
-#Note that the control here is from an incubation run in parallel with the FLA-PS 
-#incubations that contains no substrate, so the time points are the same as the FLA-PS time points
-
-###################################################################################
-#    Create bubble plot - Laminarin, amended mesocosms, and controls only         #
+#    Create bubble plot - Unamended mesocosms and averaged amended mesocosms      #
 ###################################################################################
 
 #The above sections of code should be run before this section to ensure the data is
 #correctly labeled. Unlike the above sections, this code will create a bubble plot
 #rather than a barchart.
 
-#Subsetting the data to include only laminarin and control incubations
-Amend_dA_filt <- InputData_LV_dA_Stagged_5Perc %>% 
-  filter(Substrate_f %in% c("Laminarin", "Amended Meso"))
-
-Amend_dC_filt <- InputData_LV_dC_Stagged_5Perc %>% 
-  filter(Substrate_f %in% c("Laminarin", "Amended Meso"))
-
-Unamend_dB_filt <- InputData_dB_Stagged_5Perc %>% 
-  filter(Substrate_f %in% c("Laminarin", "Control"))
-
-Unamend_dD_filt <- InputData_dD_Stagged_5Perc %>% 
-  filter(Substrate_f %in% c("Laminarin", "Control"))
-
-#For the amended mesocosms, we only want to include amended mesocosm 1; in the above
-#code, the other mesocosms are filtered out during the graphing step (i.e., Mesocosm %in% c("1"))
-#Note that we don't have to do this for the unamended mesocosms because there was only one
-#Unamended mesocosm from each station/depth, while there were 3 amended mesocosm for each 
-#station/depth, with the FLA-PS incubations done using water from amended mesocosm 1
-Amend_dA_filt <- Amend_dA_filt %>% 
-  filter(Mesocosm %in% c("1"))
-
-Amend_dC_filt <- Amend_dC_filt %>% 
-  filter(Mesocosm %in% c("1"))
-
-#To limit the amount of timepoints displayed in this graph, we'll remove the 17 d timepoint from the amended
-#mesocosms
-Amend_dA_filt <- Amend_dA_filt %>% 
-  filter(IncubationTime %in% c("2", "5", "7", "12"))
-
-Amend_dC_filt <- Amend_dC_filt %>% 
-  filter(IncubationTime %in% c("2", "5", "7", "12"))
-
-#Adding a Treatment column to each data subset so that amended and unamended can be 
-#distinguished from one another
-Amend_dA_filt$Treatment <- "Amended"
-Amend_dC_filt$Treatment <- "Amended"
-Unamend_dB_filt$Treatment <- "Unamended"
-Unamend_dD_filt$Treatment <- "Unamended"
-
-#Change column names ReadAbundance (Amended) and RelativeAbundance (Unamended) to Abundance
-#so that the columns in different data sets match and they can be combined into one data set
-Amend_dA_filt <- dplyr::rename(Amend_dA_filt, Abundance = ReadAbundance)
-
-Amend_dC_filt <- dplyr::rename(Amend_dC_filt, Abundance = ReadAbundance)
-
-Unamend_dB_filt <- dplyr::rename(Unamend_dB_filt, Abundance = RelativeAbundance)
-
-Unamend_dD_filt <- dplyr::rename(Unamend_dD_filt, Abundance = RelativeAbundance)
-
 #Remove extra columns not included in all data sets 
-Amend_dA_filt <- subset(Amend_dA_filt, select=-c(BC, Mesocosm))
-Amend_dC_filt <- subset(Amend_dC_filt, select=-c(BC, Mesocosm))
-
-#Changing the IncubationTime from days to timepoints to minimize the number of blank
-#days on the bubbleplot
-Amend_dA_filt$IncubationTime_f <- factor(Amend_dA_filt$IncubationTime, levels = c("2", "5", "7", "12"), labels=c("0", "1", "2", "3"))
-Amend_dC_filt$IncubationTime_f <- factor(Amend_dC_filt$IncubationTime, levels = c("2", "5", "7", "12"), labels=c("0", "1", "2", "3"))
-Unamend_dB_filt$IncubationTime_f <- factor(Unamend_dB_filt$IncubationTime, levels = c("0", "1", "3", "10"), labels=c("0", "1", "2", "3"))
-Unamend_dD_filt$IncubationTime_f <- factor(Unamend_dD_filt$IncubationTime, levels = c("0", "1", "3", "10"), labels=c("0", "1", "2", "3"))
+Amend_dA_filt <- subset(InputData_LV_dA_Meso_Filt, select=-c(Substrate, Substrate_f))
+Amend_dC_filt <- subset(InputData_LV_dC_Meso_Filt, select=-c(Substrate, Substrate_f))
 
 #Combining the subsets above
-Total_community_comp <- rbind(Amend_dA_filt, Amend_dC_filt, Unamend_dB_filt, Unamend_dD_filt)
+Total_community_comp <- rbind(Amend_dA_filt, InputData_LV_dB_Stagged_5Perc, Amend_dC_filt)
 
-#Factor and define levels for Treatment and IncubationTime
-Total_community_comp$Treatment_f <- factor(Total_community_comp$Treatment, levels = c("Amended", "Unamended"))
-Total_community_comp$Substrate_f <- factor(Total_community_comp$Substrate_f, levels = c("Laminarin", "Amended Meso", "Control"), labels = c("Lam", "Meso", "Cont"))
+#Factor and define levels for Mesocosm_f
+Total_community_comp$Mesocosm_f <- factor(Total_community_comp$Mesocosm_f, levels = c("Amend1", "Amend2", "Amend3", "Unamend"))
+
+#Creating a Mesocosm_type column that lists whether the mesocosm was amended or unamended
+Total_community_comp_mean <- Total_community_comp %>% mutate(Mesocosm_type =
+                                 case_when(Mesocosm_f == "Amend1" ~ "Amended", 
+                                           Mesocosm_f == "Amend2" ~ "Amended",
+                                           Mesocosm_f == "Amend3" ~ "Amended",
+                                           Mesocosm_f == "Unamend" ~ "Unamended")
+)
+
+
+#Create an average across the three amended mesocosms from each station/depth using dplyr
+Total_community_comp_mean <- Total_community_comp_mean %>% group_by(Station_f, Depth_f, Mesocosm_type, IncubationTime, Phylum, TaxonShort_f) %>% 
+  summarise_at("ReadAbundance", mean)
 
 #Remove TaxonShort_f with Abundance lower than 5%
-Total_community_comp <- subset(Total_community_comp, Abundance>=5)
+Total_community_comp_mean_filt <- subset(Total_community_comp_mean, ReadAbundance>=5)
+
+#Factor and define Mesocosm_type
+Total_community_comp_mean_filt$Mesocosm_type <- factor(Total_community_comp_mean_filt$Mesocosm_type, levels=c("Amended", "Unamended"))
 
 #Choosing a color scheme
-colours = c("#F4DE52FF", "#2BA872", "#421C57")
-lam_color = c("#FFC425", "grey60", "grey60")
-
+#colours = c("#F4DE52FF", "#2BA872", "#421C57")
+#lam_color = c("#FFC425", "grey60", "grey60")
+Meso_colors = c("grey60", "#FFC425")
 
 #Make the bubble plot - first, group the families by Phylum
-xx = ggplot(Total_community_comp, aes(x=IncubationTime_f, y = TaxonShort_f)) + 
-  geom_point(aes(size = Abundance, fill = Substrate_f), alpha = 1, shape = 21) + 
+xx = ggplot(Total_community_comp_mean_filt, aes(x=IncubationTime, y = TaxonShort_f)) + 
+  geom_point(aes(size = ReadAbundance, fill = Depth_f), alpha = 1, shape = 21) + 
   scale_size_continuous(limits = c(5, 100), range = c(1,4), breaks = c(5,25,50,75)) + 
   labs(x= "Time (days)", y = "", size = "Relative Abundance", fill = "")  + 
   theme_classic() +
@@ -659,9 +587,9 @@ xx = ggplot(Total_community_comp, aes(x=IncubationTime_f, y = TaxonShort_f)) +
         panel.background = element_blank(), panel.border = element_rect(colour = NA, fill = NA, size = 0.3), 
         panel.grid.major.y = element_line(color="gray70", size=0.1),
         panel.spacing = unit(0, "mm"), legend.position = "right") +  
-  scale_fill_manual(values = lam_color, guide = FALSE) + 
-  scale_y_discrete(limits = rev(levels(Total_community_comp$Abundance)))+
-  facet_nested(Phylum ~ Treatment_f + Depth_f + Station_f + Substrate_f, scales="free_y", space="free_y", switch="y")
+  scale_fill_discrete_qualitative(palette = "Harmonic", guide = "none") +
+  scale_y_discrete(limits = rev(levels(Total_community_comp$ReadAbundance)))+
+  facet_nested(Phylum ~ Mesocosm_type + Depth_f + Station_f, scales="free_y", space="free_y", switch="y")
 
 
 #Phylum MUST be included in facet_nested before the ~
@@ -678,7 +606,7 @@ xy <- xx +
 print(xy)
 
 #Export
-ggsave(filename="Bubbleplot_abundance_5percent.pdf", plot=xy, width=9, height=7, device=cairo_pdf)
+ggsave(filename="Bubbleplot_abundance_5percent.pdf", plot=xy, width=10, height=7, device=cairo_pdf)
 
 
 #Fixed orientation of Phylum names, added shading, and changed the time points to the correct number of days in Illustrator.
