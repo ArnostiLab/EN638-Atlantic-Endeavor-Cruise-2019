@@ -1,159 +1,1340 @@
-"sn"	"h"	"s"	"i"	"j"
-"St18_LV_dA_M1_t0"	116	3.30217333605272	0.936683139205541	15.7935814797614	0.694669334817893
-"St18_LV_dA_M2_t0"	270	3.33179030151141	0.93501969308341	15.3892778820454	0.595130257403375
-"St18_LV_dA_M3_t0"	235	3.02318622442678	0.89010795647085	9.09983987816864	0.55373914678955
-"St18_LV_dA_M1_t1"	78	2.1981038056169	0.781039997446604	4.56704415572947	0.504533098964778
-"St18_LV_dA_M2_t1"	187	2.08654893748097	0.744619019900165	3.91571838908706	0.398873181634602
-"St18_LV_dA_M3_t1"	165	1.77356216587716	0.644869035286968	2.81586259538946	0.347352351282022
-"St18_LV_dA_M4_t1"	213	3.02939917822149	0.907356615372748	10.7940788651394	0.565050193980733
-"St18_LV_dA_M1_t2"	222	2.95067045393143	0.864890281261557	7.40139206370405	0.546149667169074
-"St18_LV_dA_M2_t2"	187	2.62946095470544	0.829076727221322	5.85057835450451	0.502658451065868
-"St18_LV_dA_M3_t2"	198	2.64085132971577	0.819146453995995	5.5293358747738	0.499379345707687
-"St18_LV_dA_M4_t2"	258	3.53946145560114	0.924251100768371	13.2015119710473	0.637400903333083
-"St18_LV_dA_M1_t3"	292	3.76710177909259	0.952885317284842	21.2248059919182	0.663601401488885
-"St18_LV_dA_M2_t3"	288	3.60327155292794	0.92919988968428	14.124271777836	0.636287603554218
-"St18_LV_dA_M3_t3"	267	3.50456882907645	0.933319917420378	14.9969820269181	0.627244113040761
-"St18_LV_dA_M4_t3"	207	3.25233843203744	0.919695864106073	12.452658743765	0.609883730630009
-"St18_LV_dA_M2_t4"	321	3.86005568455082	0.94454171793427	18.0315718906473	0.668820074951645
-"St18_LV_dA_M3_t4"	265	2.96398281240436	0.833075420643002	5.99072948904262	0.531205435539251
-"St18_LV_dA_M4_t4"	142	3.30124497288427	0.924342550565598	13.2174690988894	0.666134014467033
-"St18_LV_dB_M1_t0"	117	3.12278270996307	0.91518651262054	11.7905775472472	0.655747302118583
-"St18_LV_dB_M2_t0"	277	3.23481987903116	0.917630630003982	12.1404352133365	0.575179553668232
-"St18_LV_dB_M3_t0"	293	3.47195248682405	0.936626187057336	15.7793882609641	0.611240665699569
-"St18_LV_dB_M4_t0"	178	2.9229164263186	0.893881144583815	9.42339602211239	0.564075360915807
-"St18_LV_dB_M1_t1"	124	3.2642682908532	0.914377244073664	11.6791382055062	0.677194526175666
-"St18_LV_dB_M2_t1"	174	2.94739514935554	0.883749640789446	8.60212395721535	0.571305205781431
-"St18_LV_dB_M3_t1"	143	2.0566944607355	0.760292496104564	4.17175092038927	0.414418466416465
-"St18_LV_dB_M1_t2"	176	2.62668566903323	0.815546584927555	5.42142307100818	0.50801543367196
-"St18_LV_dB_M3_t2"	199	2.87564140494181	0.876911424354286	8.12423082121206	0.543260118236528
-"St18_LV_dB_M4_t2"	175	1.5260499028755	0.574083961873825	2.3478805926152	0.295472050648443
-"St18_LV_dB_M1_t3"	316	3.47669118881622	0.927547555767617	13.8021568574363	0.604038725120315
-"St18_LV_dB_M2_t3"	298	3.76399832497539	0.945870353878085	18.4741647441723	0.660687477551685
-"St18_LV_dB_M3_t3"	436	3.67472011281227	0.946512364354635	18.6959095860999	0.604629223912224
-"St18_LV_dB_M4_t3"	198	3.08629760343227	0.903888344003237	10.4045652905375	0.583612284613951
-"St18_LV_dB_M1_t4"	313	3.75922334226687	0.947499049511394	19.0472742053885	0.65420995701224
-"St18_LV_dB_M2_t4"	335	3.98312120804799	0.963295440595721	27.2445716889171	0.685075986210733
-"St18_LV_dB_M3_t4"	236	3.33575581780871	0.930305275492386	14.3482882967813	0.61051583153429
-"St18_LV_dB_M4_t4"	229	3.41043298670479	0.937834898515849	16.0861958900678	0.627642154765003
-"St18_LV_dC_M1_t0"	164	3.7168591657731	0.949106151306171	19.6487399885174	0.728815002976236
-"St18_LV_dC_M2_t0"	99	3.58214601318772	0.938215430246885	16.185270917899	0.779554425132742
-"St18_LV_dC_M3_t0"	169	0.75466119353581	0.204949418127371	1.25778160886901	0.147110349633312
-"St18_LV_dC_M2_t1"	190	1.74590256358126	0.675781133552652	3.08433624161843	0.332741481565641
-"St18_LV_dC_M4_t1"	311	3.72448598802944	0.947372422458041	19.0014446171822	0.648888565322013
-"St18_LV_dC_M1_t2"	45	1.42412491072091	0.642840550937812	2.79986992539537	0.37411378459424
-"St18_LV_dC_M2_t2"	192	2.42415879048469	0.813604902031389	5.36494795677729	0.461086243343607
-"St18_LV_dC_M3_t2"	190	2.59815726345561	0.844291049546922	6.42223839471158	0.495167780388285
-"St18_LV_dC_M4_t2"	331	3.87478765671782	0.954846423644962	22.1466399945178	0.667822923634509
-"St18_LV_dC_M1_t3"	223	2.62642558208087	0.843336777194446	6.38311903771553	0.485730006940699
-"St18_LV_dC_M2_t3"	186	2.51899916161263	0.831194254581189	5.92396898292164	0.482036217768423
-"St18_LV_dC_M3_t3"	187	2.44797696910408	0.824213769085588	5.68872769384813	0.467965234217603
-"St18_LV_dC_M4_t3"	170	1.73271653475656	0.595251064140427	2.47066739749736	0.337380167075198
-"St18_LV_dC_M1_t4"	71	2.33589725524632	0.812221239562893	5.32541591856408	0.5479879612418
-"St18_LV_dC_M2_t4"	131	2.00418402557756	0.750992729231993	4.01594699189195	0.411098032081618
-"St18_LV_dC_M3_t4"	145	1.00194151711945	0.421138312678418	1.72752839219165	0.201325119842986
-"St18_LV_dC_M4_t4"	191	3.23963221869033	0.912353801113738	11.4095079159987	0.616805705771335
-"St19_LV_dA_M1_t0"	213	2.96892977800348	0.862361019588786	7.26538366538587	0.553771308527563
-"St19_LV_dA_M2_t0"	187	2.90408852574573	0.838304903769529	6.18447945121758	0.555157374555134
-"St19_LV_dA_M3_t0"	218	2.88827647942261	0.853482939110392	6.82514373362597	0.53640618957621
-"St19_LV_dA_M4_t0"	184	2.90392291399078	0.829139649514538	5.85273293165278	0.556847303392709
-"St19_LV_dA_M1_t1"	193	3.34452487397958	0.923368726565725	13.0495025749204	0.635516200636454
-"St19_LV_dA_M2_t1"	120	3.19316262534126	0.897456289949648	9.75193894885381	0.666980288823578
-"St19_LV_dA_M3_t1"	155	3.2358000763103	0.925989351854979	13.511569281768	0.641587810128303
-"St19_LV_dA_M1_t2"	138	2.78323992281629	0.869046770948215	7.63631418057322	0.564866373980395
-"St19_LV_dA_M2_t2"	150	2.24664609852123	0.759952000392968	4.1658335067863	0.448375498645516
-"St19_LV_dA_M3_t2"	190	2.61380096168604	0.841096021767687	6.29310865042049	0.498149222442922
-"St19_LV_dA_M4_t2"	177	3.3955466839309	0.934117086268972	15.1784422298409	0.655998543195633
-"St19_LV_dA_M1_t3"	170	2.94773429124995	0.894000486084086	9.43400552565998	0.573958329436109
-"St19_LV_dA_M2_t3"	157	2.92672618348505	0.899605440769999	9.96069914216196	0.5788338415805
-"St19_LV_dA_M3_t3"	80	3.80860899497622	0.963543927077272	27.4302721008813	0.869143278326893
-"St19_LV_dA_M4_t3"	138	3.17457792324451	0.902914036976329	10.3001501850086	0.644289522337275
-"St19_LV_dA_M1_t4"	142	2.1291015303504	0.708298565958275	3.42816278324144	0.429615784732597
-"St19_LV_dA_M2_t4"	154	1.98636673184049	0.719724184741013	3.56791398171817	0.394358829362153
-"St19_LV_dA_M3_t4"	167	2.40205535669126	0.77341046413109	4.41326646513163	0.469335338167787
-"St19_LV_dA_M4_t4"	143	1.71945338856839	0.543421955266772	2.19020605904142	0.346465286880912
-"St19_LV_dB_M1_t0"	249	3.06918403133735	0.909774323677919	11.0833195245915	0.556268279753493
-"St19_LV_dB_M4_t0"	213	3.31812672262295	0.918461651974914	12.2641680168985	0.618904290246582
-"St19_LV_dB_M1_t1"	34	1.50955762385712	0.576349506416011	2.36043629157663	0.428078074637997
-"St19_LV_dB_M2_t1"	58	3.51596304526312	0.946435986160916	18.6692506466036	0.865906265924902
-"St19_LV_dB_M4_t1"	110	3.18642656584536	0.946665328494207	18.7495295605484	0.677893814648066
-"St19_LV_dB_M1_t2"	35	1.79066652125143	0.719106307802219	3.56006570377481	0.503654351214571
-"St19_LV_dB_M2_t2"	92	1.41869251440981	0.64065750039613	2.78286036609189	0.313745875163333
-"St19_LV_dB_M4_t2"	88	3.17636702073585	0.944570146035322	18.0408196752104	0.709432225528475
-"St19_LV_dB_M2_t3"	150	2.01680878776706	0.746352256873033	3.94247544910911	0.402505604457652
-"St19_LV_dB_M1_t3"	156	1.73838598942513	0.700419411953519	3.33799999032262	0.344244664982431
-"St19_LV_dB_M3_t3"	105	1.37681516824868	0.582283402629933	2.39396759979367	0.295837322336035
-"St19_LV_dB_M4_t3"	240	3.27970078332429	0.920287767667501	12.5451260206684	0.598415773999646
-"St19_LV_dB_M1_t4"	126	2.14503893088971	0.753625947298584	4.05886898005413	0.443530582410119
-"St19_LV_dB_M2_t4"	203	2.21813626043644	0.768328361093947	4.3164541189503	0.417476052911554
-"St19_LV_dB_M3_t4"	338	2.4740555198011	0.818087935789234	5.49716152328076	0.424873092915211
-"St19_LV_dB_M4_t4"	214	3.41429686784686	0.939549938259025	16.5425802918935	0.63628627080864
-"St19_LV_dC_M1_t0"	87	2.27973164224331	0.761991819142444	4.20153625138828	0.510474371991806
-"St19_LV_dC_M2_t0"	462	3.54300393830325	0.905113987807689	10.5389611903306	0.577453584339582
-"St19_LV_dC_M1_t1"	97	2.1426225113895	0.6851848851054	3.17646756044353	0.468362377745329
-"St19_LV_dC_M3_t1"	240	3.39191685253598	0.924657778467302	13.2727702960816	0.618890771674419
-"St19_LV_dC_M4_t1"	334	3.5572490643175	0.932626460935924	14.8426223988167	0.612142962736022
-"St19_LV_dC_M1_t2"	136	1.30169456466045	0.648845906497463	2.84775264905968	0.264967638667218
-"St19_LV_dC_M2_t2"	159	1.10714924758681	0.549400225121041	2.21926431336683	0.218419840544998
-"St19_LV_dC_M3_t2"	259	3.68640897411963	0.927522303213261	13.7973479337022	0.66340166245708
-"St19_LV_dC_M4_t2"	258	2.88620229293462	0.812039083272645	5.32025496263428	0.519759283098647
-"St19_LV_dC_M2_t3"	211	1.42078328823768	0.620131496455905	2.63248990287482	0.265474766483556
-"St19_LV_dC_M3_t3"	145	1.49484851723837	0.688306189568409	3.20827673355251	0.300367388453316
-"St19_LV_dC_M4_t3"	105	1.67374626581912	0.509979422535384	2.04073062640356	0.35963913310144
-"St19_LV_dC_M1_t4"	278	2.3045699477398	0.816673387421355	5.45474541821367	0.409510502072242
-"St19_LV_dC_M3_t4"	361	2.08790718526891	0.757114930584745	4.11717361798935	0.354550934837166
-"St19_LV_dC_M4_t4"	142	2.19004296402486	0.77720526283006	4.48843636390404	0.44191270973949
-"St20_LV_dA_M1_t0"	83	3.35217594357704	0.936544235709325	15.759009621557	0.758609834820126
-"St20_LV_dA_M2_t0"	224	3.44440812833443	0.941820960394957	17.1883208590008	0.636480674332671
-"St20_LV_dA_M3_t0"	162	3.58467508001466	0.933224998269479	14.9756641570094	0.704591096426073
-"St20_LV_dA_M1_t1"	59	1.91378290654417	0.701452111198353	3.34954637935622	0.469347720988928
-"St20_LV_dA_M2_t1"	275	2.24160825580459	0.703905221245683	3.37729697297278	0.399091972385317
-"St20_LV_dA_M3_t1"	310	2.66049593910768	0.807691052537436	5.19996606083378	0.463777984682033
-"St20_LV_dA_M4_t1"	243	3.47762861144876	0.938268076965489	16.199074171737	0.633094795556096
-"St20_LV_dA_M1_t2"	94	3.24501602733425	0.920082872747696	12.5129622945896	0.714242897026574
-"St20_LV_dA_M2_t2"	108	1.08454908882095	0.331264035417703	1.49535848670053	0.231635773584903
-"St20_LV_dA_M3_t2"	352	3.52179882995285	0.924528298068447	13.2499993296418	0.600617386135926
-"St20_LV_dA_M4_t2"	221	3.3812978001858	0.931306203737276	14.5573553130683	0.626379378901475
-"St20_LV_dA_M1_t3"	363	3.29154148331025	0.892197617811629	9.27623285960994	0.558418142746562
-"St20_LV_dA_M2_t3"	177	3.6872143576352	0.929577174471472	14.1999414606689	0.712346927375638
-"St20_LV_dA_M3_t3"	425	3.94091032096639	0.947681147803928	19.1135691634128	0.651165277141277
-"St20_LV_dA_M4_t3"	201	3.29495392802722	0.911602899180833	11.3125882040599	0.621301996613488
-"St20_LV_dA_M1_t4"	185	3.26112349538371	0.893814467320014	9.41747877287316	0.624693719098119
-"St20_LV_dA_M2_t4"	376	2.75727318934672	0.765055477387105	4.25632395630539	0.465002401122586
-"St20_LV_dA_M3_t4"	507	4.38088936758017	0.975495943798079	40.809570128296	0.703360621030335
-"St20_LV_dA_M4_t4"	112	3.08153613954285	0.901583528976509	10.1609008085782	0.653075527534683
-"St20_LV_dB_M1_t0"	132	3.19528078056078	0.860046749588412	7.14524312267919	0.654394921444667
-"St20_LV_dB_M3_t0"	454	3.85690342500928	0.943085406320366	17.570186051558	0.630408981773619
-"St20_LV_dB_M1_t1"	125	1.49879743831432	0.463855557591972	1.86516901212036	0.310418402751048
-"St20_LV_dB_M2_t1"	259	3.41171038193165	0.933475989723066	15.0321665190821	0.613967238872637
-"St20_LV_dB_M3_t1"	105	1.17227629883263	0.349785459095426	1.53795391688535	0.251887899902919
-"St20_LV_dB_M4_t1"	125	3.61451259930114	0.944314424510233	17.9579719021448	0.748607649783889
-"St20_LV_dB_M1_t2"	181	1.151430133294	0.498450882535689	1.99382266896553	0.221492890419836
-"St20_LV_dB_M2_t2"	201	1.76133270788765	0.595010105796279	2.46919741532358	0.33211982686703
-"St20_LV_dB_M3_t2"	187	1.43064064135565	0.487076897683496	1.94960998146452	0.273487083932101
-"St20_LV_dB_M4_t2"	220	3.04932870082927	0.903824074877409	10.3976124869644	0.565357669698844
-"St20_LV_dB_M1_t3"	224	2.2982060538185	0.76544688062301	4.26342656476349	0.424677821091183
-"St20_LV_dB_M2_t3"	214	3.37851446564823	0.921763709667333	12.7817921293037	0.629617884274958
-"St20_LV_dB_M3_t3"	107	1.25794658103379	0.37463013365553	1.59905370216411	0.269204506648412
-"St20_LV_dB_M4_t3"	240	3.02108360462453	0.897445590262314	9.75092151139872	0.55122835984647
-"St20_LV_dB_M1_t4"	60	1.74292868747473	0.693984054124504	3.26780356866388	0.425691746502351
-"St20_LV_dB_M2_t4"	108	0.645714333896538	0.173887391909904	1.21048872781632	0.137910345219678
-"St20_LV_dB_M3_t4"	105	1.03443990114768	0.290356206860926	1.40915767835656	0.222270888301114
-"St20_LV_dB_M4_t4"	238	3.18006969847737	0.919129274297559	12.3654139531212	0.581124342729887
-"St20_LV_dC_M1_t0"	52	0.313312453120986	0.0850789052283096	1.0929904291359	0.0792946412410802
-"St20_LV_dC_M2_t0"	97	1.35492798887399	0.402822446675244	1.67454385120899	0.296177834018546
-"St20_LV_dC_M3_t0"	89	1.01468159671592	0.29900442437986	1.42654252719833	0.2260556465563
-"St20_LV_dC_M4_t0"	99	2.30310054016157	0.74737640145326	3.95845837741474	0.501205760736384
-"St20_LV_dC_M3_t1"	101	0.705883469067643	0.19887328332543	1.24824198118238	0.15295017031338
-"St20_LV_dC_M2_t1"	104	0.688946573670063	0.193988218243373	1.24067665341143	0.14833948920997
-"St20_LV_dC_M4_t1"	271	3.26227958120612	0.90204273768418	10.2085335620747	0.582329594482582
-"St20_LV_dC_M1_t2"	31	0.416526098556815	0.118267593239803	1.13413093624897	0.121295180719598
-"St20_LV_dC_M2_t2"	113	0.9170305348602	0.315285364959184	1.46046243036764	0.19398250577842
-"St20_LV_dC_M3_t2"	112	0.568980509130589	0.17030864816206	1.20526747420567	0.120585068397912
-"St20_LV_dC_M4_t2"	235	3.11393513169947	0.898889023267132	9.89012303423763	0.570361087601283
-"St20_LV_dC_M1_t3"	48	1.19785646025596	0.401778730104076	1.6716222747713	0.309427605769051
-"St20_LV_dC_M2_t3"	121	1.20483029636326	0.450442943549374	1.81964727458621	0.251226629876378
-"St20_LV_dC_M3_t3"	88	1.13462335243711	0.40184459539017	1.67180634379169	0.253414786390008
-"St20_LV_dC_M1_t4"	201	1.1128712425824	0.408667503536905	1.6910959671272	0.209844853704574
-"St20_LV_dC_M2_t4"	149	1.52262325610342	0.548929283685015	2.21694728527155	0.304284491281273
-"St20_LV_dC_M3_t4"	295	2.14966571554066	0.608709161481924	2.55564378605763	0.3779980711793
-"St20_LV_dC_M4_t4"	247	3.1769366622856	0.904867027156224	10.5116025506967	0.57664053941604
+"x"
+"spc.pres29.AcidobacteriotaAcidobacteriaePAUC26f"	42
+"spc.pres29.AcidobacteriotaSubgroup.21"	68
+"spc.pres29.AcidobacteriotaSubgroup.26"	35
+"spc.pres29.AcidobacteriotaSubgroup.5"	36
+"spc.pres29.AcidobacteriotaVicinamibacteriaVicinamibacteralesuncultured"	85
+"spc.pres29.AcidobacteriotaVicinamibacteriaVicinamibacteralesVicinamibacteraceae"	56
+"spc.pres29.ActinobacteriotaAcidimicrobiiaActinomarinalesActinomarinaceaeCandidatus.Actinomarina"	148
+"spc.pres29.ActinobacteriotaAcidimicrobiiaActinomarinalesuncultured"	35
+"spc.pres29.ActinobacteriotaAcidimicrobiiaMicrotrichalesIlumatobacteraceaeIlumatobacter"	32
+"spc.pres29.ActinobacteriotaAcidimicrobiiaMicrotrichalesIlumatobacteraceaeuncultured"	36
+"spc.pres29.ActinobacteriotaAcidimicrobiiaMicrotrichalesMicrotrichaceaeSva0996.marine.group"	127
+"spc.pres29.ActinobacteriotaAcidimicrobiiaMicrotrichalesMicrotrichaceaeuncultured"	57
+"spc.pres29.ActinobacteriotaActinobacteriaPropionibacterialesPropionibacteriaceaeCutibacterium"	50
+"spc.pres29.AncK6"	31
+"spc.pres29.BacteroidotaBacteroidiaChitinophagalesSaprospiraceaeAureispira"	51
+"spc.pres29.BacteroidotaBacteroidiaChitinophagalesSaprospiraceaeLewinella"	56
+"spc.pres29.BacteroidotaBacteroidiaChitinophagalesSaprospiraceaeuncultured"	109
+"spc.pres29.BacteroidotaBacteroidiaCytophagalesCyclobacteriaceaeFabibacter"	75
+"spc.pres29.BacteroidotaBacteroidiaCytophagalesCyclobacteriaceaeMarinoscillum"	101
+"spc.pres29.BacteroidotaBacteroidiaCytophagalesCyclobacteriaceaeReichenbachiella"	30
+"spc.pres29.BacteroidotaBacteroidiaCytophagalesCyclobacteriaceaeuncultured"	110
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesCrocinitomicaceaeCrocinitomix"	94
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesCrocinitomicaceaeFluviicola"	105
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesCrocinitomicaceaeSalinirepens"	64
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesCryomorphaceaeNS10.marine.group"	52
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesCryomorphaceaeOwenweeksia"	36
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesCryomorphaceaePhaeocystidibacter"	37
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesCryomorphaceaeuncultured"	137
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesCryomorphaceaeVicingus"	81
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceae"	71
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeAlgibacter"	43
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeAquibacter"	119
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeArcticiflavibacter"	62
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeArenibacter"	33
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeAurantivirga"	138
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeAureisphaera"	36
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeAureitalea"	49
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeDokdonia"	86
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeFlavicella"	72
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeFlavirhabdus"	85
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeFlavobacterium"	45
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeFormosa"	124
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeGilvibacter"	59
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeKordia"	64
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeLacinutrix"	42
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeLeeuwenhoekiella"	68
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeLutibacter"	68
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeMaribacter"	79
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeMesoflavibacter"	29
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeNS2b.marine.group"	104
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeNS4.marine.group"	139
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeNS5.marine.group"	154
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeOlleya"	57
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaePolaribacter"	156
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaePseudofulvibacter"	139
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaePsychroflexus"	57
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaePsychroserpens"	78
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeTenacibaculum"	147
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeUlvibacter"	104
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeuncultured"	148
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeWinogradskyella"	87
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesNS7.marine.group"	86
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesNS9.marine.group"	139
+"spc.pres29.BacteroidotaBacteroidiaFlavobacterialesWeeksellaceaeEmpedobacter"	56
+"spc.pres29.BacteroidotaBacteroidiaSphingobacterialesLentimicrobiaceae"	70
+"spc.pres29.BacteroidotaBacteroidiaSphingobacterialesNS11.12.marine.group"	39
+"spc.pres29.BdellovibrionotaBdellovibrioniaBacteriovoracalesBacteriovoracaceaeHalobacteriovorax"	39
+"spc.pres29.BdellovibrionotaBdellovibrioniaBacteriovoracalesBacteriovoracaceaePeredibacter"	69
+"spc.pres29.BdellovibrionotaBdellovibrioniaBacteriovoracalesBacteriovoracaceaeuncultured"	47
+"spc.pres29.BdellovibrionotaBdellovibrioniaBdellovibrionalesBdellovibrionaceaeOM27.clade"	107
+"spc.pres29.BdellovibrionotaOligoflexiaOligoflexalesOligoflexaceaeuncultured"	50
+"spc.pres29.CampylobacterotaCampylobacteriaCampylobacteralesArcobacteraceaeuncultured"	67
+"spc.pres29.CampylobacterotaCampylobacteriaCampylobacteralesSulfurovaceaeSulfurovum"	49
+"spc.pres29.ChloroflexiAnaerolineaeAnaerolinealesAnaerolineaceaeuncultured"	38
+"spc.pres29.ChloroflexiDehalococcoidiaS085"	43
+"spc.pres29.ChloroflexiDehalococcoidiaSAR202.clade"	150
+"spc.pres29.ChloroflexiJG30.KF.CM66"	44
+"spc.pres29.CyanobacteriaCyanobacteriiaSynechococcalesCyanobiaceaeCyanobium.PCC.6307"	34
+"spc.pres29.CyanobacteriaCyanobacteriiaSynechococcalesCyanobiaceaeProchlorococcus.MIT9313"	138
+"spc.pres29.CyanobacteriaCyanobacteriiaSynechococcalesCyanobiaceaeSynechococcus.CC9902"	110
+"spc.pres29.DadabacteriaDadabacteriiaDadabacteriales"	100
+"spc.pres29.DesulfobacterotaDesulfuromonadiaDesulfuromonadalesGeopsychrobacteraceaeGeopsychrobacter"	33
+"spc.pres29.DesulfobacterotaDesulfuromonadiaPB19"	67
+"spc.pres29.FirmicutesBacilliPaenibacillalesPaenibacillaceaePaenibacillus"	55
+"spc.pres29.FirmicutesBacilliStaphylococcalesStaphylococcaceaeStaphylococcus"	39
+"spc.pres29.GemmatimonadotaBD2.11.terrestrial.group"	102
+"spc.pres29.HydrogenedentesHydrogenedentiaHydrogenedentialesHydrogenedensaceae"	36
+"spc.pres29.Margulisbacteria"	57
+"spc.pres29.Marinimicrobia..SAR406.clade."	150
+"spc.pres29.Myxococcotabacteriap25"	33
+"spc.pres29.MyxococcotaMyxococciaMyxococcalesMyxococcaceaeP3OB.42"	60
+"spc.pres29.NB1.j"	89
+"spc.pres29.NitrospinotaNitrospiniaNitrospinalesNitrospinaceaeLS.NOB"	88
+"spc.pres29.NitrospinotaNitrospiniaNitrospinalesNitrospinaceaeNitrospina"	52
+"spc.pres29.NitrospinotaP9X2b3D02"	29
+"spc.pres29.NitrospirotaNitrospiriaNitrospiralesNitrospiraceaeNitrospira"	32
+"spc.pres29.noRelative"	151
+"spc.pres29.PatescibacteriaGracilibacteriaJGI.0000069.P22"	105
+"spc.pres29.PatescibacteriaParcubacteriaCandidatus.Portnoybacteria"	29
+"spc.pres29.PAUC34f"	56
+"spc.pres29.PlanctomycetotaBD7.11"	30
+"spc.pres29.PlanctomycetotaOM190"	89
+"spc.pres29.PlanctomycetotaPhycisphaeraePhycisphaeralesPhycisphaeraceaeCL500.3"	78
+"spc.pres29.PlanctomycetotaPhycisphaeraePhycisphaeralesPhycisphaeraceaeFS140.16B.02.marine.group"	64
+"spc.pres29.PlanctomycetotaPhycisphaeraePhycisphaeralesPhycisphaeraceaeJL.ETNP.F27"	99
+"spc.pres29.PlanctomycetotaPhycisphaeraePhycisphaeralesPhycisphaeraceaeuncultured"	62
+"spc.pres29.PlanctomycetotaPhycisphaeraePhycisphaeralesPhycisphaeraceaeUrania.1B.19.marine.sediment.group"	43
+"spc.pres29.PlanctomycetotaPla3.lineage"	60
+"spc.pres29.PlanctomycetotaPlanctomycetesPirellulalesPirellulaceaeBlastopirellula"	59
+"spc.pres29.PlanctomycetotaPlanctomycetesPirellulalesPirellulaceaePir4.lineage"	41
+"spc.pres29.PlanctomycetotaPlanctomycetesPirellulalesPirellulaceaeRhodopirellula"	87
+"spc.pres29.PlanctomycetotaPlanctomycetesPirellulalesPirellulaceaeRubripirellula"	34
+"spc.pres29.PlanctomycetotaPlanctomycetesPirellulalesPirellulaceaeuncultured"	76
+"spc.pres29.PlanctomycetotaPlanctomycetesPlanctomycetalesGimesiaceaeuncultured"	43
+"spc.pres29.PlanctomycetotaPlanctomycetesPlanctomycetalesuncultured"	73
+"spc.pres29.Poribacteria"	31
+"spc.pres29.Proteobacteria"	73
+"spc.pres29.ProteobacteriaAlphaproteobacteriaAT.s3.44"	101
+"spc.pres29.ProteobacteriaAlphaproteobacteriaCaulobacteralesHyphomonadaceaeHyphomonas"	43
+"spc.pres29.ProteobacteriaAlphaproteobacteriaCaulobacteralesHyphomonadaceaeMaricaulis"	54
+"spc.pres29.ProteobacteriaAlphaproteobacteriaCaulobacteralesHyphomonadaceaeuncultured"	93
+"spc.pres29.ProteobacteriaAlphaproteobacteriaDefluviicoccalesuncultured"	126
+"spc.pres29.ProteobacteriaAlphaproteobacteriaKiloniellalesKiloniellaceaeuncultured"	50
+"spc.pres29.ProteobacteriaAlphaproteobacteriaKordiimonadalesKordiimonadaceaeKordiimonas"	56
+"spc.pres29.ProteobacteriaAlphaproteobacteriaKordiimonadalesuncultured"	68
+"spc.pres29.ProteobacteriaAlphaproteobacteriaMicavibrionalesMicavibrionaceaeuncultured"	35
+"spc.pres29.ProteobacteriaAlphaproteobacteriaParvibaculalesOCS116.clade"	109
+"spc.pres29.ProteobacteriaAlphaproteobacteriaParvibaculalesPS1.clade"	56
+"spc.pres29.ProteobacteriaAlphaproteobacteriaPuniceispirillalesSAR116.clade"	136
+"spc.pres29.ProteobacteriaAlphaproteobacteriaPuniceispirillalesSAR116.cladeCandidatus.Puniceispirillum"	37
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhizobialesDevosiaceaeDevosia"	38
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhizobialesMethyloligellaceaeuncultured"	36
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhizobialesRhizobiaceaeAminobacter"	34
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhizobialesRhizobiaceaeLentilitoribacter"	55
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhizobialesRhizobiaceaePseudahrensia"	60
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhizobialesStappiaceae"	58
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhizobialesStappiaceaeLabrenzia"	29
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhizobialesXanthobacteraceaeBradyrhizobium"	31
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceae"	98
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeAlbimonas"	34
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeAliiroseovarius"	80
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeAmylibacter"	128
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeAscidiaceihabitans"	116
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeCeleribacter"	42
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeCognatishimia"	64
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeCognatiyoonia"	31
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeDinoroseobacter"	55
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeDonghicola"	30
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeHIMB11"	132
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeJannaschia"	49
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeLacimonas"	121
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeLentibacter"	81
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeLoktanella"	42
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeMarinovum"	37
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaePlanktomarina"	113
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaePseudooceanicola"	29
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaePseudophaeobacter"	100
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaePseudoruegeria"	42
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeRhodovulum"	31
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeRoseivivax"	102
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeRoseobacter"	40
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeRoseobacter.clade.NAC11.7.lineage"	85
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeRoseovarius"	44
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeRuegeria"	68
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeSedimentitalea"	90
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeShimia"	153
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeSulfitobacter"	149
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeTateyamaria"	39
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeThalassobius"	96
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeTropicibacter"	67
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeuncultured"	157
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeYoonia.Loktanella"	70
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhodospirillalesAEGEAN.169.marine.group"	154
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhodospirillalesMagnetospiraceaeMagnetospira"	85
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhodospirillalesMagnetospiraceaeuncultured"	131
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhodospirillalesRhodospirillaceaeuncultured"	29
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRhodospirillalesThalassospiraceaeThalassospira"	34
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRickettsiales"	32
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRickettsialesMitochondria"	36
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRickettsialesRickettsiaceaeuncultured"	30
+"spc.pres29.ProteobacteriaAlphaproteobacteriaRickettsialesS25.593"	129
+"spc.pres29.ProteobacteriaAlphaproteobacteriaSAR11.clade"	41
+"spc.pres29.ProteobacteriaAlphaproteobacteriaSAR11.cladeClade.IClade.Ia"	155
+"spc.pres29.ProteobacteriaAlphaproteobacteriaSAR11.cladeClade.IClade.Ib"	147
+"spc.pres29.ProteobacteriaAlphaproteobacteriaSAR11.cladeClade.II"	155
+"spc.pres29.ProteobacteriaAlphaproteobacteriaSAR11.cladeClade.III"	51
+"spc.pres29.ProteobacteriaAlphaproteobacteriaSAR11.cladeClade.Iuncultured"	156
+"spc.pres29.ProteobacteriaAlphaproteobacteriaSAR11.cladeClade.IV"	139
+"spc.pres29.ProteobacteriaAlphaproteobacteriaSAR11.cladeuncultured"	89
+"spc.pres29.ProteobacteriaAlphaproteobacteriaSneathiellalesSneathiellaceaeuncultured"	49
+"spc.pres29.ProteobacteriaAlphaproteobacteriaSphingomonadalesSphingomonadaceaeAltererythrobacter"	44
+"spc.pres29.ProteobacteriaAlphaproteobacteriaSphingomonadalesSphingomonadaceaeErythrobacter"	41
+"spc.pres29.ProteobacteriaAlphaproteobacteriaSphingomonadalesSphingomonadaceaeSphingomonas"	32
+"spc.pres29.ProteobacteriaAlphaproteobacteriaThalassobaculalesNisaeaceaeOM75.clade"	62
+"spc.pres29.ProteobacteriaAlphaproteobacteriaThalassobaculalesuncultured"	36
+"spc.pres29.ProteobacteriaAlphaproteobacteriauncultured"	74
+"spc.pres29.ProteobacteriaGammaproteobacteriaArenicellalesArenicellaceaeArenicella"	61
+"spc.pres29.ProteobacteriaGammaproteobacteriaArenicellalesArenicellaceaeuncultured"	110
+"spc.pres29.ProteobacteriaGammaproteobacteriaBurkholderialesBurkholderiaceaeCupriavidus"	53
+"spc.pres29.ProteobacteriaGammaproteobacteriaBurkholderialesBurkholderiaceaePolynucleobacter"	32
+"spc.pres29.ProteobacteriaGammaproteobacteriaBurkholderialesMethylophilaceaeOM43.clade"	131
+"spc.pres29.ProteobacteriaGammaproteobacteriaCardiobacterialesCardiobacteriaceaeuncultured"	91
+"spc.pres29.ProteobacteriaGammaproteobacteriaChromatialesChromatiaceaeCandidatus.Thiobios"	35
+"spc.pres29.ProteobacteriaGammaproteobacteriaChromatialesChromatiaceaeThiohalobacter"	34
+"spc.pres29.ProteobacteriaGammaproteobacteriaCoxiellalesCoxiellaceaeCoxiella"	75
+"spc.pres29.ProteobacteriaGammaproteobacteriaEctothiorhodospiralesEctothiorhodospiraceaeThiogranum"	33
+"spc.pres29.ProteobacteriaGammaproteobacteriaEctothiorhodospiralesEctothiorhodospiraceaeuncultured"	82
+"spc.pres29.ProteobacteriaGammaproteobacteriaEnterobacteralesAeromonadaceaeAeromonas"	49
+"spc.pres29.ProteobacteriaGammaproteobacteriaEnterobacteralesAlteromonadaceae"	39
+"spc.pres29.ProteobacteriaGammaproteobacteriaEnterobacteralesAlteromonadaceaeAestuariibacter"	135
+"spc.pres29.ProteobacteriaGammaproteobacteriaEnterobacteralesAlteromonadaceaeAgaribacter"	55
+"spc.pres29.ProteobacteriaGammaproteobacteriaEnterobacteralesAlteromonadaceaeAliiglaciecola"	59
+"spc.pres29.ProteobacteriaGammaproteobacteriaEnterobacteralesAlteromonadaceaeAlteromonas"	158
+"spc.pres29.ProteobacteriaGammaproteobacteriaEnterobacteralesAlteromonadaceaeGlaciecola"	112
+"spc.pres29.ProteobacteriaGammaproteobacteriaEnterobacteralesAlteromonadaceaeParaglaciecola"	136
+"spc.pres29.ProteobacteriaGammaproteobacteriaEnterobacteralesAlteromonadaceaeSalinimonas"	136
+"spc.pres29.ProteobacteriaGammaproteobacteriaEnterobacteralesAlteromonadaceaeuncultured"	69
+"spc.pres29.ProteobacteriaGammaproteobacteriaEnterobacteralesColwelliaceae"	49
+"spc.pres29.ProteobacteriaGammaproteobacteriaEnterobacteralesColwelliaceaeColwellia"	157
+"spc.pres29.ProteobacteriaGammaproteobacteriaEnterobacteralesColwelliaceaeThalassomonas"	38
+"spc.pres29.ProteobacteriaGammaproteobacteriaEnterobacteralesColwelliaceaeThalassotalea"	113
+"spc.pres29.ProteobacteriaGammaproteobacteriaEnterobacteralesColwelliaceaeuncultured"	146
+"spc.pres29.ProteobacteriaGammaproteobacteriaEnterobacteralesEnterobacteriaceaeEscherichia.Shigella"	84
+"spc.pres29.ProteobacteriaGammaproteobacteriaEnterobacteralesIdiomarinaceaeIdiomarina"	36
+"spc.pres29.ProteobacteriaGammaproteobacteriaEnterobacteralesMoritellaceaeMoritella"	149
+"spc.pres29.ProteobacteriaGammaproteobacteriaEnterobacteralesMoritellaceaeParamoritella"	43
+"spc.pres29.ProteobacteriaGammaproteobacteriaEnterobacteralesPseudoalteromonadaceaeAlgicola"	60
+"spc.pres29.ProteobacteriaGammaproteobacteriaEnterobacteralesPseudoalteromonadaceaePseudoalteromonas"	158
+"spc.pres29.ProteobacteriaGammaproteobacteriaEnterobacteralesPseudoalteromonadaceaePsychrosphaera"	34
+"spc.pres29.ProteobacteriaGammaproteobacteriaEnterobacteralesPseudoalteromonadaceaeuncultured"	32
+"spc.pres29.ProteobacteriaGammaproteobacteriaEnterobacteralesPsychromonadaceaePsychromonas"	54
+"spc.pres29.ProteobacteriaGammaproteobacteriaEnterobacteralesShewanellaceaePsychrobium"	121
+"spc.pres29.ProteobacteriaGammaproteobacteriaEnterobacteralesShewanellaceaeShewanella"	116
+"spc.pres29.ProteobacteriaGammaproteobacteriaEnterobacteralesVibrionaceaeAliivibrio"	87
+"spc.pres29.ProteobacteriaGammaproteobacteriaEnterobacteralesVibrionaceaeCatenococcus"	98
+"spc.pres29.ProteobacteriaGammaproteobacteriaEnterobacteralesVibrionaceaePhotobacterium"	91
+"spc.pres29.ProteobacteriaGammaproteobacteriaEnterobacteralesVibrionaceaeVibrio"	155
+"spc.pres29.ProteobacteriaGammaproteobacteriaEPR3968.O8a.Bc78"	79
+"spc.pres29.ProteobacteriaGammaproteobacteriaGa0077536"	69
+"spc.pres29.ProteobacteriaGammaproteobacteriaGammaproteobacteria.Incertae.SedisUnknown.FamilyMarinicella"	39
+"spc.pres29.ProteobacteriaGammaproteobacteriaGammaproteobacteria.Incertae.SedisUnknown.Familyuncultured"	41
+"spc.pres29.ProteobacteriaGammaproteobacteriaHgCo23"	35
+"spc.pres29.ProteobacteriaGammaproteobacteriaHOC36"	136
+"spc.pres29.ProteobacteriaGammaproteobacteriaJTB23"	63
+"spc.pres29.ProteobacteriaGammaproteobacteriaMethylococcalesMethylomonadaceaeMilano.WF1B.03"	58
+"spc.pres29.ProteobacteriaGammaproteobacteriaNitrosococcalesMethylophagaceaeMarine.Methylotrophic.Group.3"	126
+"spc.pres29.ProteobacteriaGammaproteobacteriaNitrosococcalesMethylophagaceaeMethylophaga"	74
+"spc.pres29.ProteobacteriaGammaproteobacteriaPiscirickettsialesPiscirickettsiaceaeCandidatus.Endoecteinascidia"	51
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadales"	104
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesAlcanivoracaceae1Alcanivorax"	158
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesAlcanivoracaceaeKetobacter"	63
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesCellvibrionaceaeAestuariicella"	50
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesCellvibrionaceaeEionea"	57
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesCellvibrionaceaeUmboniibacter"	77
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesCellvibrionaceaeuncultured"	80
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesEndozoicomonadaceaeEndozoicomonas"	36
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesHalieaceae"	34
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesHalieaceaeHalioglobus"	94
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesHalieaceaeLuminiphilus"	103
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesHalieaceaeOM60.NOR5..clade"	122
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesHalieaceaeParahaliea"	35
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesHalomonadaceaeHalomonas"	104
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesKI89A.clade"	143
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesMarinobacteraceaeMarinobacter"	115
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesMarinomonadaceaeMarinomonas"	135
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesMicrobulbiferaceaeMicrobulbifer"	64
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesMoraxellaceaeAcinetobacter"	103
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesMoraxellaceaePsychrobacter"	63
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesNitrincolaceae"	40
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesNitrincolaceaeAmphritea"	77
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesNitrincolaceaeMarinobacterium"	45
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesNitrincolaceaeProfundimonas"	74
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesNitrincolaceaeuncultured"	145
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesOceanospirillaceaeOceanospirillum"	48
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesOleiphilaceaeOleiphilus"	151
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesOM182.clade"	102
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesPorticoccaceaeC1.B045"	29
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesPorticoccaceaePorticoccus"	54
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesPorticoccaceaeSAR92.clade"	122
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesPseudohongiellaceaePseudohongiella"	144
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesPseudomonadaceaePseudomonas"	137
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesSaccharospirillaceae"	60
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesSaccharospirillaceaeBermanella"	31
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesSaccharospirillaceaeLitoribacillus"	51
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesSaccharospirillaceaeOceaniserpentilla"	31
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesSaccharospirillaceaeOleibacter"	66
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesSaccharospirillaceaeOleispira"	139
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesSaccharospirillaceaeThalassolituus"	67
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesSaccharospirillaceaeuncultured"	137
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesSAR86.clade"	155
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesSpongiibacteraceaeBD1.7.clade"	108
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesSpongiibacteraceaeDasania"	38
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesSpongiibacteraceaeOceanicoccus"	33
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesSpongiibacteraceaeSinobacterium"	127
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesSpongiibacteraceaeuncultured"	53
+"spc.pres29.ProteobacteriaGammaproteobacteriaPseudomonadalesThioglobaceaeSUP05.cluster"	142
+"spc.pres29.ProteobacteriaGammaproteobacteriaSteroidobacteralesWoeseiaceaeWoeseia"	116
+"spc.pres29.ProteobacteriaGammaproteobacteriaThiotrichalesThiotrichaceaeLeucothrix"	87
+"spc.pres29.ProteobacteriaGammaproteobacteriaThiotrichalesThiotrichaceaeuncultured"	106
+"spc.pres29.ProteobacteriaGammaproteobacteriaUBA10353.marine.group"	128
+"spc.pres29.SAR324.clade.Marine.group.B."	156
+"spc.pres29.VerrucomicrobiotaKiritimatiellaeWCHB1.41"	42
+"spc.pres29.VerrucomicrobiotaLentisphaeriaLentisphaeralesLentisphaeraceaeLentisphaera"	52
+"spc.pres29.VerrucomicrobiotaLentisphaeriaVictivallalesArctic95B.14"	42
+"spc.pres29.VerrucomicrobiotaVerrucomicrobiaeArctic97B.4.marine.group"	116
+"spc.pres29.VerrucomicrobiotaVerrucomicrobiaeOpitutalesPuniceicoccaceaeCerasicoccus"	35
+"spc.pres29.VerrucomicrobiotaVerrucomicrobiaeOpitutalesPuniceicoccaceaeCoraliomargarita"	30
+"spc.pres29.VerrucomicrobiotaVerrucomicrobiaeOpitutalesPuniceicoccaceaeLentimonas"	61
+"spc.pres29.VerrucomicrobiotaVerrucomicrobiaeOpitutalesPuniceicoccaceaeMB11C04.marine.group"	52
+"spc.pres29.VerrucomicrobiotaVerrucomicrobiaeOpitutalesPuniceicoccaceaePelagicoccus"	46
+"spc.pres29.VerrucomicrobiotaVerrucomicrobiaePedosphaeralesPedosphaeraceaeSCGC.AAA164.E04"	36
+"spc.pres29.VerrucomicrobiotaVerrucomicrobiaeVerrucomicrobialesDEV007"	75
+"spc.pres29.VerrucomicrobiotaVerrucomicrobiaeVerrucomicrobialesRubritaleaceaeRoseibacillus"	111
+"spc.pres29.VerrucomicrobiotaVerrucomicrobiaeVerrucomicrobialesRubritaleaceaeRubritalea"	34
+"spc.pres1.AbditibacteriotaAbditibacteriaAbditibacterialesAbditibacteriaceaeAbditibacterium"	0
+"spc.pres1.AcetothermiaAcetothermiia"	0
+"spc.pres1.AcidobacteriotaAcidobacteriaeAcidobacterialesAcidobacteriaceae..Subgroup.1.Granulicella"	0
+"spc.pres1.AcidobacteriotaAcidobacteriaeBryobacteralesBryobacteraceaeBryobacter"	0
+"spc.pres1.AcidobacteriotaAcidobacteriaePaludibaculum"	1
+"spc.pres1.AcidobacteriotaAcidobacteriaeSolibacteralesSolibacteraceaeCandidatus.Solibacter"	1
+"spc.pres1.AcidobacteriotaAcidobacteriaeSubgroup.12"	0
+"spc.pres1.AcidobacteriotaAT.s3.28"	0
+"spc.pres1.AcidobacteriotaBlastocatellia45597"	0
+"spc.pres1.AcidobacteriotaBlastocatelliaBlastocatellalesBlastocatellaceaeBlastocatella"	0
+"spc.pres1.AcidobacteriotaBlastocatelliaBlastocatellalesBlastocatellaceaeJGI.0001001.H03"	0
+"spc.pres1.AcidobacteriotaBlastocatelliaPyrinomonadalesPyrinomonadaceaePyrinomonas"	0
+"spc.pres1.AcidobacteriotaHolophagaeSubgroup.7"	0
+"spc.pres1.AcidobacteriotaSubgroup.19"	1
+"spc.pres1.AcidobacteriotaThermoanaerobaculiaThermoanaerobaculalesThermoanaerobaculaceaeSubgroup.23"	1
+"spc.pres1.AcidobacteriotaVicinamibacteriaVicinamibacterales"	0
+"spc.pres1.AcidobacteriotaVicinamibacteriaVicinamibacteralesVicinamibacteraceaeuncultured"	1
+"spc.pres1.ActinobacteriotaAcidimicrobiiaAcidimicrobialesAcidimicrobiaceaeAcidithrix"	0
+"spc.pres1.ActinobacteriotaAcidimicrobiiaAcidimicrobialesAcidimicrobiales.Incertae.SedisAciditerrimonas"	0
+"spc.pres1.ActinobacteriotaAcidimicrobiiaActinomarinales"	1
+"spc.pres1.ActinobacteriotaAcidimicrobiiaMicrotrichalesIamiaceaeIamia"	0
+"spc.pres1.ActinobacteriotaAcidimicrobiiaMicrotrichalesIlumatobacteraceae"	0
+"spc.pres1.ActinobacteriotaAcidimicrobiiaMicrotrichalesMicrotrichaceaeCandidatus.Microthrix"	1
+"spc.pres1.ActinobacteriotaActinobacteria0319.7L14"	0
+"spc.pres1.ActinobacteriotaActinobacteriaActinomycetalesActinomycetaceae"	0
+"spc.pres1.ActinobacteriotaActinobacteriaActinomycetalesActinomycetaceaeF0332"	0
+"spc.pres1.ActinobacteriotaActinobacteriaActinomycetalesActinomycetaceaeVaribaculum"	0
+"spc.pres1.ActinobacteriotaActinobacteriaBifidobacterialesBifidobacteriaceaeBifidobacterium"	1
+"spc.pres1.ActinobacteriotaActinobacteriaCorynebacterialesCorynebacteriaceaeTuricella"	1
+"spc.pres1.ActinobacteriotaActinobacteriaCorynebacterialesCorynebacteriaceaeuncultured"	0
+"spc.pres1.ActinobacteriotaActinobacteriaCorynebacterialesDietziaceaeDietzia"	1
+"spc.pres1.ActinobacteriotaActinobacteriaCorynebacterialesNocardiaceaeGordonia"	0
+"spc.pres1.ActinobacteriotaActinobacteriaCorynebacterialesNocardiaceaeWilliamsia"	1
+"spc.pres1.ActinobacteriotaActinobacteriaEuzebyalesEuzebyaceaeEuzebya"	0
+"spc.pres1.ActinobacteriotaActinobacteriaFrankialesAcidothermaceaeAcidothermus"	0
+"spc.pres1.ActinobacteriotaActinobacteriaFrankialesFrankiaceaeJatrophihabitans"	0
+"spc.pres1.ActinobacteriotaActinobacteriaFrankialesGeodermatophilaceaeGeodermatophilus"	1
+"spc.pres1.ActinobacteriotaActinobacteriaFrankialesGeodermatophilaceaeKlenkia"	0
+"spc.pres1.ActinobacteriotaActinobacteriaFrankialesGeodermatophilaceaeModestobacter"	1
+"spc.pres1.ActinobacteriotaActinobacteriaFrankialesNakamurellaceaeNakamurella"	0
+"spc.pres1.ActinobacteriotaActinobacteriaFrankialesSporichthyaceaeSporichthya"	0
+"spc.pres1.ActinobacteriotaActinobacteriaKineosporialesKineosporiaceaeKineosporia"	0
+"spc.pres1.ActinobacteriotaActinobacteriaKineosporialesKineosporiaceaeQuadrisphaera"	0
+"spc.pres1.ActinobacteriotaActinobacteriaKIST.JJY010"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesBogoriellaceaeBogoriella"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesDemequinaceaeDemequina"	1
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesDermabacteraceaeBrachybacterium"	1
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesDermabacteraceaeDermabacter"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesDermacoccaceaeKytococcus"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesDermatophilaceaeMobilicoccus"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesIntrasporangiaceaeJanibacter"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesIntrasporangiaceaeKnoellia"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesIntrasporangiaceaeOrnithinimicrobium"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesIntrasporangiaceaeOryzihumus"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesIntrasporangiaceaeTerrabacter"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesIntrasporangiaceaeTetrasphaera"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesIntrasporangiaceaeuncultured"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesMicrobacteriaceae"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesMicrobacteriaceaeAmnibacterium"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesMicrobacteriaceaeClavibacter"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesMicrobacteriaceaeCryobacterium"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesMicrobacteriaceaeDiaminobutyricimonas"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesMicrobacteriaceaeHerbiconiux"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesMicrobacteriaceaeLysinimonas"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesMicrobacteriaceaeML602J.51"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesMicrobacteriaceaePseudoclavibacter"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesMicrobacteriaceaeRathayibacter"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesMicrobacteriaceaeSalinibacterium"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesMicrobacteriaceaeSchumannella"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesMicrobacteriaceaeuncultured"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesMicrococcaceae"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesMicrococcaceaeAcaricomes"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesMicrococcaceaeCitricoccus"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesMicrococcaceaeGlutamicibacter"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesMicrococcaceaeNeomicrococcus"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesMicrococcaceaeNesterenkonia"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesMicrococcaceaePaenarthrobacter"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesMicrococcaceaePaeniglutamicibacter"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesMicrococcaceaePseudoglutamicibacter"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesMicrococcaceaeTersicoccus"	1
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesMicrococcaceaeZhihengliuella"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicromonosporalesMicromonosporaceae"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicromonosporalesMicromonosporaceaeActinoplanes"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicromonosporalesMicromonosporaceaeLongispora"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicromonosporalesMicromonosporaceaeuncultured"	0
+"spc.pres1.ActinobacteriotaActinobacteriaPropionibacterialesNocardioidaceaeAeromicrobium"	0
+"spc.pres1.ActinobacteriotaActinobacteriaPropionibacterialesNocardioidaceaeMarmoricola"	1
+"spc.pres1.ActinobacteriotaActinobacteriaPropionibacterialesPropionibacteriaceaeMicrolunatus"	0
+"spc.pres1.ActinobacteriotaActinobacteriaPropionibacterialesPropionibacteriaceaePropionibacterium"	0
+"spc.pres1.ActinobacteriotaActinobacteriaPropionibacterialesPropionibacteriaceaePseudopropionibacterium"	0
+"spc.pres1.ActinobacteriotaActinobacteriaPseudonocardialesPseudonocardiaceaeActinomycetospora"	0
+"spc.pres1.ActinobacteriotaActinobacteriaPseudonocardialesPseudonocardiaceaeSaccharomonospora"	1
+"spc.pres1.ActinobacteriotaActinobacteriaStreptomycetalesStreptomycetaceaeStreptomyces"	0
+"spc.pres1.ActinobacteriotaActinobacteriaStreptosporangialesStreptosporangiales.Incertae.SedisMotilibacter"	0
+"spc.pres1.ActinobacteriotaCoriobacteriiaCoriobacterialesAtopobiaceaeAtopobium"	1
+"spc.pres1.ActinobacteriotaCoriobacteriiaCoriobacterialesAtopobiaceaeOlsenella"	0
+"spc.pres1.ActinobacteriotaCoriobacteriiaCoriobacterialesEggerthellaceaeSlackia"	0
+"spc.pres1.ActinobacteriotaCoriobacteriiaOPB41"	0
+"spc.pres1.ActinobacteriotaThermoleophiliaGaiellalesGaiellaceaeGaiella"	1
+"spc.pres1.ActinobacteriotaThermoleophiliaSolirubrobacteralesSolirubrobacteraceaeSolirubrobacter"	0
+"spc.pres1.ArmatimonadotaFimbriimonadiaFimbriimonadalesFimbriimonadaceae"	1
+"spc.pres1.Armatimonadotauncultured"	1
+"spc.pres1.BacteroidotaBacteroidiaBacteroidalesBacteroidetes.vadinHA17"	0
+"spc.pres1.BacteroidotaBacteroidiaBacteroidalesDysgonomonadaceaeFermentimonas"	0
+"spc.pres1.BacteroidotaBacteroidiaBacteroidalesF082"	0
+"spc.pres1.BacteroidotaBacteroidiaBacteroidalesMarinifilaceaeOdoribacter"	0
+"spc.pres1.BacteroidotaBacteroidiaBacteroidalesMarinifilaceaeuncultured"	0
+"spc.pres1.BacteroidotaBacteroidiaBacteroidalesp.251.o5"	0
+"spc.pres1.BacteroidotaBacteroidiaBacteroidalesPaludibacteraceaePaludibacter"	1
+"spc.pres1.BacteroidotaBacteroidiaBacteroidalesPaludibacteraceaeuncultured"	0
+"spc.pres1.BacteroidotaBacteroidiaBacteroidalesPrevotellaceaePrevotella"	1
+"spc.pres1.BacteroidotaBacteroidiaBacteroidalesPrevotellaceaePrevotella_9"	0
+"spc.pres1.BacteroidotaBacteroidiaBacteroidalesPrevotellaceaePrevotellaceae.NK3B31.group"	0
+"spc.pres1.BacteroidotaBacteroidiaBacteroidalesPrevotellaceaePrevotellaceae.UCG.001"	0
+"spc.pres1.BacteroidotaBacteroidiaBacteroidalesProlixibacteraceaeRoseimarinus"	0
+"spc.pres1.BacteroidotaBacteroidiaBacteroidalesRikenellaceaeAlistipes"	0
+"spc.pres1.BacteroidotaBacteroidiaBacteroidalesRikenellaceaeRikenellaceae.RC9.gut.group"	0
+"spc.pres1.BacteroidotaBacteroidiaBacteroidalesRikenellaceaeSP3.e08"	0
+"spc.pres1.BacteroidotaBacteroidiaBacteroidalesRikenellaceaeuncultured"	0
+"spc.pres1.BacteroidotaBacteroidiaBacteroidalesRs.E47.termite.group"	0
+"spc.pres1.BacteroidotaBacteroidiaBacteroidalesRs.E47.termite.groupGWE2.42.42"	1
+"spc.pres1.BacteroidotaBacteroidiaBacteroidalesTannerellaceaeMacellibacteroides"	0
+"spc.pres1.BacteroidotaBacteroidiaBacteroidalesTannerellaceaeParabacteroides"	1
+"spc.pres1.BacteroidotaBacteroidiaBacteroidalesTannerellaceaeTannerella"	1
+"spc.pres1.BacteroidotaBacteroidiaChitinophagalesChitinophagaceaeChitinophaga"	0
+"spc.pres1.BacteroidotaBacteroidiaChitinophagalesChitinophagaceaeEdaphobaculum"	1
+"spc.pres1.BacteroidotaBacteroidiaChitinophagalesChitinophagaceaeFerruginibacter"	0
+"spc.pres1.BacteroidotaBacteroidiaChitinophagalesChitinophagaceaeFlavisolibacter"	0
+"spc.pres1.BacteroidotaBacteroidiaChitinophagalesChitinophagaceaeHydrobacter"	1
+"spc.pres1.BacteroidotaBacteroidiaChitinophagalesChitinophagaceaeHydrotalea"	0
+"spc.pres1.BacteroidotaBacteroidiaChitinophagalesChitinophagaceaeRurimicrobium"	1
+"spc.pres1.BacteroidotaBacteroidiaChitinophagalesChitinophagaceaeSediminibacterium"	1
+"spc.pres1.BacteroidotaBacteroidiaChitinophagalesChitinophagaceaeSegetibacter"	0
+"spc.pres1.BacteroidotaBacteroidiaChitinophagalesChitinophagaceaeVibrionimonas"	0
+"spc.pres1.BacteroidotaBacteroidiaChitinophagalesSaprospiraceaeMembranicola"	0
+"spc.pres1.BacteroidotaBacteroidiaCytophagalesCyclobacteriaceae"	0
+"spc.pres1.BacteroidotaBacteroidiaCytophagalesCytophagaceaeCytophaga"	1
+"spc.pres1.BacteroidotaBacteroidiaCytophagalesCytophagaceaeRhodocytophaga"	0
+"spc.pres1.BacteroidotaBacteroidiaCytophagalesCytophagaceaeSiphonobacter"	0
+"spc.pres1.BacteroidotaBacteroidiaCytophagalesFlammeovirgaceae"	1
+"spc.pres1.BacteroidotaBacteroidiaCytophagalesFlammeovirgaceaeFlexithrix"	1
+"spc.pres1.BacteroidotaBacteroidiaCytophagalesFlammeovirgaceaeRapidithrix"	1
+"spc.pres1.BacteroidotaBacteroidiaCytophagalesHymenobacteraceaePontibacter"	0
+"spc.pres1.BacteroidotaBacteroidiaCytophagalesHymenobacteraceaeRufibacter"	0
+"spc.pres1.BacteroidotaBacteroidiaCytophagalesMicroscillaceaeMicroscilla"	1
+"spc.pres1.BacteroidotaBacteroidiaCytophagalesMicroscillaceaeuncultured"	0
+"spc.pres1.BacteroidotaBacteroidiaCytophagalesSpirosomaceaeDyadobacter"	1
+"spc.pres1.BacteroidotaBacteroidiaCytophagalesSpirosomaceaeFibrella"	0
+"spc.pres1.BacteroidotaBacteroidiaCytophagalesSpirosomaceaeHuanghella"	1
+"spc.pres1.BacteroidotaBacteroidiaCytophagalesSpirosomaceaeSpirosoma"	0
+"spc.pres1.BacteroidotaBacteroidiaCytophagalesSpirosomaceaeTaeseokella"	1
+"spc.pres1.BacteroidotaBacteroidiaCytophagalesuncultured"	0
+"spc.pres1.BacteroidotaBacteroidiaFlavobacterialesBlattabacteriaceaeuncultured"	0
+"spc.pres1.BacteroidotaBacteroidiaFlavobacterialesCrocinitomicaceaeWandonia"	0
+"spc.pres1.BacteroidotaBacteroidiaFlavobacterialesCryomorphaceae"	0
+"spc.pres1.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeAestuariibaculum"	1
+"spc.pres1.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeAntarcticibacterium"	1
+"spc.pres1.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeAscidiimonas"	0
+"spc.pres1.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeAureimarina"	1
+"spc.pres1.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeCitreitalea"	1
+"spc.pres1.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeEuzebyella"	1
+"spc.pres1.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeFlagellimonas"	0
+"spc.pres1.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeFlaviramulus"	0
+"spc.pres1.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeFulvibacter"	1
+"spc.pres1.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeGillisia"	1
+"spc.pres1.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeHyunsoonleella"	1
+"spc.pres1.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeImtechella"	0
+"spc.pres1.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeMariniflexile"	1
+"spc.pres1.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeNeptunitalea"	1
+"spc.pres1.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaePricia"	0
+"spc.pres1.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeSpongiibacterium"	0
+"spc.pres1.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeSpongiimonas"	0
+"spc.pres1.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeZhouia"	0
+"spc.pres1.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeZunongwangia"	1
+"spc.pres1.BacteroidotaBacteroidiaFlavobacterialesWeeksellaceaeCloacibacterium"	1
+"spc.pres1.BacteroidotaBacteroidiaFlavobacterialesWeeksellaceaeMoheibacter"	1
+"spc.pres1.BacteroidotaBacteroidiaFlavobacterialesWeeksellaceaeuncultured"	0
+"spc.pres1.BacteroidotaBacteroidiaSphingobacterialesAKYH767"	0
+"spc.pres1.BacteroidotaBacteroidiaSphingobacterialesCWT.CU03.E12"	0
+"spc.pres1.BacteroidotaBacteroidiaSphingobacterialesenv.OPS.17"	0
+"spc.pres1.BacteroidotaBacteroidiaSphingobacterialesFFCH9454"	0
+"spc.pres1.BacteroidotaBacteroidiaSphingobacterialesS15.21"	1
+"spc.pres1.BacteroidotaBacteroidiaSphingobacterialesSphingobacteriaceaeMucilaginibacter"	1
+"spc.pres1.BacteroidotaBacteroidiaSphingobacterialesSphingobacteriaceaeNubsella"	0
+"spc.pres1.BacteroidotaBacteroidiaSphingobacterialesSphingobacteriaceaeSolitalea"	0
+"spc.pres1.BacteroidotaBacteroidiaSphingobacterialesSphingobacteriaceaeSphingobacterium"	0
+"spc.pres1.BacteroidotaBacteroidiaSphingobacterialesSphingobacteriaceaeuncultured"	0
+"spc.pres1.BacteroidotaIgnavibacteriaIgnavibacterialesPHOS.HE36"	0
+"spc.pres1.BacteroidotaKapabacteriaKapabacteriales"	0
+"spc.pres1.BacteroidotaRhodothermiaBalneolalesBalneolaceaeGracilimonas"	0
+"spc.pres1.BacteroidotaRhodothermiaRhodothermalesRhodothermaceaeRubrivirga"	1
+"spc.pres1.BdellovibrionotaBdellovibrioniaBacteriovoracalesBacteriovoracaceaeBacteriovorax"	1
+"spc.pres1.BdellovibrionotaOligoflexiaOligoflexalesOligoflexaceae"	0
+"spc.pres1.BdellovibrionotaOligoflexiaSilvanigrellalesSilvanigrellaceae"	0
+"spc.pres1.BdellovibrionotaOligoflexiauncultured"	0
+"spc.pres1.CalditrichotaCalditrichiaCalditrichalesCalditrichaceaeJdFR.76"	0
+"spc.pres1.CampylobacterotaCampylobacteriaCampylobacteralesArcobacteraceae"	1
+"spc.pres1.CampylobacterotaCampylobacteriaCampylobacteralesCampylobacteraceaeCampylobacter"	1
+"spc.pres1.CampylobacterotaCampylobacteriaCampylobacteralesHelicobacteraceaeHelicobacter"	0
+"spc.pres1.CampylobacterotaCampylobacteriaCampylobacteralesIncertae.SedisThiofractor"	0
+"spc.pres1.CampylobacterotaCampylobacteriaCampylobacteralesSulfurospirillaceaeSulfurospirillum"	0
+"spc.pres1.ChloroflexiAnaerolineae43831"	0
+"spc.pres1.ChloroflexiAnaerolineaeAnaerolinealesAnaerolineaceaeThermomarinilinea"	0
+"spc.pres1.ChloroflexiAnaerolineaeSBR1031"	1
+"spc.pres1.ChloroflexiAnaerolineaeSBR1031A4b"	1
+"spc.pres1.ChloroflexiAnaerolineaeThermoflexalesThermoflexaceaeThermoflexus"	0
+"spc.pres1.ChloroflexiAnaerolineaeuncultured"	0
+"spc.pres1.ChloroflexiChloroflexiaThermomicrobialesAKYG1722"	0
+"spc.pres1.ChloroflexiChloroflexiaThermomicrobialesJG30.KF.CM45"	1
+"spc.pres1.ChloroflexiDehalococcoidia"	0
+"spc.pres1.ChloroflexiDehalococcoidiaDehalococcoidalesDehalococcoidales.Incertae.SedisDehalobium"	0
+"spc.pres1.ChloroflexiDehalococcoidiaFW22"	0
+"spc.pres1.ChloroflexiDehalococcoidiaGIF3"	1
+"spc.pres1.ChloroflexiDehalococcoidiaH3.93"	1
+"spc.pres1.ChloroflexiDehalococcoidiaNapoli.4B.65"	0
+"spc.pres1.ChloroflexiDehalococcoidiaSh765B.AG.111"	0
+"spc.pres1.ChloroflexiDehalococcoidiaSh765B.TzT.20"	0
+"spc.pres1.ChloroflexiDehalococcoidiat0.6.f"	0
+"spc.pres1.ChloroflexiKtedonobacteriaMVP.21"	0
+"spc.pres1.ChloroflexiOLB14"	0
+"spc.pres1.ChloroflexiSL56.marine.group"	0
+"spc.pres1.CyanobacteriaCyanobacteriiaCyanobacterialesChroococcidiopsaceaeAliterella"	0
+"spc.pres1.CyanobacteriaCyanobacteriiaCyanobacterialesChroococcidiopsaceaeGloeocapsa.PCC.7428"	0
+"spc.pres1.CyanobacteriaCyanobacteriiaCyanobacterialesChroococcidiopsaceaeuncultured"	0
+"spc.pres1.CyanobacteriaCyanobacteriiaCyanobacterialesColeofasciculaceaeMicrocoleus.Es.Yyy1400"	0
+"spc.pres1.CyanobacteriaCyanobacteriiaCyanobacterialesMicrocystaceae"	0
+"spc.pres1.CyanobacteriaCyanobacteriiaCyanobacterialesMicrocystaceaeSnowella.0TU37S04"	0
+"spc.pres1.CyanobacteriaCyanobacteriiaCyanobacterialesNostocaceaeAphanizomenon.MDT14a"	0
+"spc.pres1.CyanobacteriaCyanobacteriiaCyanobacterialesPhormidiaceaeTrichodesmium.IMS101"	1
+"spc.pres1.CyanobacteriaCyanobacteriiaCyanobacterialesuncultured"	0
+"spc.pres1.CyanobacteriaCyanobacteriiaCyanobacterialesXenococcaceaePleurocapsa.PCC.7319"	1
+"spc.pres1.CyanobacteriaCyanobacteriiaCyanobacterialesXenococcaceaeXenococcus.PCC.7305"	1
+"spc.pres1.CyanobacteriaCyanobacteriiaGeitlerinematalesGeitlerinemataceaeGeitlerinema"	0
+"spc.pres1.CyanobacteriaCyanobacteriiaLeptolyngbyalesLeptolyngbyaceaePhormidium.SAG.37.90"	1
+"spc.pres1.CyanobacteriaCyanobacteriiaLimnotrichalesLimnotrichaceaeLimnothrix"	1
+"spc.pres1.CyanobacteriaCyanobacteriiaOxyphotobacteria.Incertae.SedisUnknown.FamilyLeptolyngbya.EcFYyyy.00"	0
+"spc.pres1.CyanobacteriaCyanobacteriiaPhormidesmialesNodosilineaceaeHalomicronema.C2206"	0
+"spc.pres1.CyanobacteriaCyanobacteriiaPhormidesmialesNodosilineaceaeNodosilinea.PCC.7104"	0
+"spc.pres1.CyanobacteriaCyanobacteriiaPhormidesmialesPhormidesmiaceae"	1
+"spc.pres1.CyanobacteriaCyanobacteriiaSynechococcalesCyanobiaceae.Synechococcus..spongiarum.group"	0
+"spc.pres1.CyanobacteriaCyanobacteriiaSynechococcalesCyanobiaceaeSynechococcus.MBIC10613"	0
+"spc.pres1.CyanobacteriaCyanobacteriiauncultured"	1
+"spc.pres1.CyanobacteriaSericytochromatia"	0
+"spc.pres1.CyanobacteriaVampirivibrioniaObscuribacteralesObscuribacteraceae"	1
+"spc.pres1.CyanobacteriaVampirivibrioniaObscuribacteralesObscuribacteraceaeCandidatus.Obscuribacter"	1
+"spc.pres1.CyanobacteriaVampirivibrioniaVampirovibrionalesVampirovibrionaceaeVampirovibrio"	1
+"spc.pres1.DeferrisomatotaDefferrisomatiaDefferrisomatalesDefferrisomataceaeDeferrisoma"	0
+"spc.pres1.DeinococcotaDeinococciDeinococcalesDeinococcaceaeDeinococcus"	1
+"spc.pres1.DeinococcotaDeinococciThermalesThermaceaeMeiothermus"	0
+"spc.pres1.DependentiaeBabeliaeBabelialesUBA12411"	0
+"spc.pres1.DesulfobacterotaDesulfobacteriaDesulfatiglandalesDesulfatiglandaceaeDesulfatiglans"	1
+"spc.pres1.DesulfobacterotaDesulfobacteriaDesulfobacteralesDesulfobacteraceaeDesulfobotulus"	0
+"spc.pres1.DesulfobacterotaDesulfobacteriaDesulfobacteralesDesulfobacteraceaeDesulfoconvexum"	1
+"spc.pres1.DesulfobacterotaDesulfobacteriaDesulfobacteralesDesulfolunaceae"	0
+"spc.pres1.DesulfobacterotaDesulfobacteriaDesulfobacteralesDesulfosarcinaceaeLCP.80"	0
+"spc.pres1.DesulfobacterotaDesulfobacteriaDesulfobacteralesDesulfosarcinaceaeSEEP.SRB1"	0
+"spc.pres1.DesulfobacterotaDesulfobacteriaDesulfobacteralesDesulfosarcinaceaeSva0081.sediment.group"	1
+"spc.pres1.DesulfobacterotaDesulfobulbiaDesulfobulbalesDesulfocapsaceaeDesulfopila"	1
+"spc.pres1.DesulfobacterotaDesulfobulbiaDesulfobulbalesDesulfocapsaceaeDesulforhopalus"	1
+"spc.pres1.DesulfobacterotaDesulfobulbiaDesulfobulbalesDesulfurivibrionaceaeMSBL7"	1
+"spc.pres1.DesulfobacterotaDesulfobulbiaDesulfobulbalesuncultured"	0
+"spc.pres1.DesulfobacterotaDesulfovibrioniaDesulfovibrionalesDesulfomicrobiaceaeDesulfomicrobium"	0
+"spc.pres1.DesulfobacterotaDesulfovibrioniaDesulfovibrionalesDesulfovibrionaceaeDesulfovibrio"	1
+"spc.pres1.DesulfobacterotaDesulfovibrioniaDesulfovibrionalesDesulfovibrionaceaeuncultured"	0
+"spc.pres1.DesulfobacterotaDesulfuromonadiaDesulfuromonadalesC8S.102"	0
+"spc.pres1.DesulfobacterotaDesulfuromonadiaDesulfuromonadalesDesulfuromonadaceae"	0
+"spc.pres1.DesulfobacterotaDesulfuromonadiaDesulfuromonadalesGeoalkalibacteraceaeGeoalkalibacter"	0
+"spc.pres1.DesulfobacterotaDesulfuromonadiaDesulfuromonadalesGeothermobacteraceaeGeothermobacter"	0
+"spc.pres1.DesulfobacterotaDesulfuromonadiaDesulfuromonadalesuncultured"	1
+"spc.pres1.DesulfobacterotaDesulfuromonadiaGeobacteralesGeobacteraceae"	0
+"spc.pres1.DesulfobacterotaDesulfuromonadiaGeobacteralesGeobacteraceaeCitrifermentans"	1
+"spc.pres1.DesulfobacterotaDesulfuromonadiaGeobacteralesGeobacteraceaeGeobacter"	1
+"spc.pres1.DesulfobacterotaDesulfuromonadiaGeobacteralesGeobacteraceaeuncultured"	1
+"spc.pres1.DesulfobacterotaDissulfuribacteriaDissulfuribacteralesDissulfuribacteraceaeSEEP.SRB2"	0
+"spc.pres1.DesulfobacterotaDissulfuribacteriaDissulfuribacteralesDissulfuribacteraceaeuncultured"	1
+"spc.pres1.DesulfobacterotaSyntrophiaSyntrophalesSyntrophaceaeSyntrophus"	0
+"spc.pres1.DesulfobacterotaSyntrophorhabdiaSyntrophorhabdalesSyntrophorhabdaceaeSyntrophorhabdus"	0
+"spc.pres1.ElusimicrobiotaElusimicrobiaElusimicrobialesElusimicrobiaceaeElusimicrobium"	0
+"spc.pres1.ElusimicrobiotaElusimicrobiaMVP.88"	0
+"spc.pres1.ElusimicrobiotaLineage.IIa"	1
+"spc.pres1.ElusimicrobiotaLineage.IIc"	0
+"spc.pres1.ElusimicrobiotaRs.M47"	0
+"spc.pres1.EntotheonellaeotaEntotheonelliaEntotheonellalesEntotheonellaceae"	0
+"spc.pres1.EntotheonellaeotaEntotheonelliaEntotheonellalesEntotheonellaceaeCandidatus.Entotheonella"	1
+"spc.pres1.FermentibacterotaFermentibacteriaFermentibacteralesFermentibacteraceae"	0
+"spc.pres1.FirmicutesBacilliAcholeplasmatalesAcholeplasmataceaeDMI"	0
+"spc.pres1.FirmicutesBacilliAcholeplasmatalesAcholeplasmataceaeEMP.G18"	0
+"spc.pres1.FirmicutesBacilliAlicyclobacillalesAlicyclobacillaceaeAlicyclobacillus"	0
+"spc.pres1.FirmicutesBacilliBacillalesBacillaceae"	0
+"spc.pres1.FirmicutesBacilliBacillalesBacillaceaeAnoxybacillus"	0
+"spc.pres1.FirmicutesBacilliBacillalesBacillaceaeGeobacillus"	1
+"spc.pres1.FirmicutesBacilliBacillalesBacillaceaeOceanobacillus"	0
+"spc.pres1.FirmicutesBacilliBacillalesBacillaceaeParaliobacillus"	1
+"spc.pres1.FirmicutesBacilliBacillalesBacillaceaeSalirhabdus"	1
+"spc.pres1.FirmicutesBacilliBacillalesPlanococcaceaePlanococcus"	0
+"spc.pres1.FirmicutesBacilliBacillalesPlanococcaceaePsychrobacillus"	0
+"spc.pres1.FirmicutesBacilliBacillalesPlanococcaceaeSolibacillus"	0
+"spc.pres1.FirmicutesBacilliBacillalesPlanococcaceaeSporosarcina"	0
+"spc.pres1.FirmicutesBacilliBacillalesPlanococcaceaeuncultured"	0
+"spc.pres1.FirmicutesBacilliBrevibacillalesBrevibacillaceaeBrevibacillus"	1
+"spc.pres1.FirmicutesBacilliEntomoplasmatalesSpiroplasmataceaeSpiroplasma"	0
+"spc.pres1.FirmicutesBacilliErysipelotrichalesErysipelatoclostridiaceaeEggerthia"	0
+"spc.pres1.FirmicutesBacilliErysipelotrichalesErysipelatoclostridiaceaeUCG.004"	0
+"spc.pres1.FirmicutesBacilliErysipelotrichalesErysipelotrichaceae.Anaerorhabdus..furcosa.group"	0
+"spc.pres1.FirmicutesBacilliErysipelotrichalesErysipelotrichaceaeBulleidia"	0
+"spc.pres1.FirmicutesBacilliErysipelotrichalesErysipelotrichaceaeErysipelothrix"	0
+"spc.pres1.FirmicutesBacilliErysipelotrichalesErysipelotrichaceaeTuricibacter"	0
+"spc.pres1.FirmicutesBacilliExiguobacteralesExiguobacteraceaeExiguobacterium"	0
+"spc.pres1.FirmicutesBacilliIzemoplasmatales"	0
+"spc.pres1.FirmicutesBacilliIzemoplasmatalesIzemoplasmataceae"	1
+"spc.pres1.FirmicutesBacilliIzemoplasmatalesIzemoplasmataceaeIzimaplasma"	0
+"spc.pres1.FirmicutesBacilliLactobacillalesAerococcaceaeAbiotrophia"	1
+"spc.pres1.FirmicutesBacilliLactobacillalesAerococcaceaeAerococcus"	1
+"spc.pres1.FirmicutesBacilliLactobacillalesAerococcaceaeEremococcus"	0
+"spc.pres1.FirmicutesBacilliLactobacillalesAerococcaceaeFacklamia"	0
+"spc.pres1.FirmicutesBacilliLactobacillalesCarnobacteriaceaeAlloiococcus"	1
+"spc.pres1.FirmicutesBacilliLactobacillalesCarnobacteriaceaeAtopococcus"	1
+"spc.pres1.FirmicutesBacilliLactobacillalesCarnobacteriaceaeCarnobacterium"	0
+"spc.pres1.FirmicutesBacilliLactobacillalesCarnobacteriaceaeDesemzia"	0
+"spc.pres1.FirmicutesBacilliLactobacillalesEnterococcaceaeEnterococcus"	1
+"spc.pres1.FirmicutesBacilliLactobacillalesLactobacillaceaeLacticaseibacillus"	1
+"spc.pres1.FirmicutesBacilliLactobacillalesLactobacillaceaeLactobacillus"	1
+"spc.pres1.FirmicutesBacilliLactobacillalesLactobacillaceaeLeuconostoc"	1
+"spc.pres1.FirmicutesBacilliLactobacillalesLactobacillaceaeLimosilactobacillus"	0
+"spc.pres1.FirmicutesBacilliLactobacillalesLactobacillaceaeWeissella"	0
+"spc.pres1.FirmicutesBacilliLactobacillalesListeriaceaeBrochothrix"	0
+"spc.pres1.FirmicutesBacilliLactobacillalesListeriaceaeListeria"	0
+"spc.pres1.FirmicutesBacilliLactobacillalesStreptococcaceaeLactococcus"	1
+"spc.pres1.FirmicutesBacilliLactobacillalesuncultured"	0
+"spc.pres1.FirmicutesBacilliMycoplasmatalesMycoplasmataceaeCandidatus.Bacilloplasma"	1
+"spc.pres1.FirmicutesBacilliPaenibacillalesPaenibacillaceaeAmmoniphilus"	1
+"spc.pres1.FirmicutesBacilliPaenibacillalesPaenibacillaceaeCohnella"	0
+"spc.pres1.FirmicutesBacilliPaenibacillalesPaenibacillaceaeThermobacillus"	0
+"spc.pres1.FirmicutesBacilliRF39"	0
+"spc.pres1.FirmicutesBacilliStaphylococcalesStaphylococcaceaeAuricoccus.Abyssicoccus"	0
+"spc.pres1.FirmicutesBacilliStaphylococcalesStaphylococcaceaeJeotgalicoccus"	0
+"spc.pres1.FirmicutesBacilliStaphylococcalesStaphylococcaceaeMacrococcus"	0
+"spc.pres1.FirmicutesBacilliStaphylococcalesStaphylococcaceaeNosocomiicoccus"	1
+"spc.pres1.FirmicutesBacilliThermicanalesThermicanaceaeThermicanus"	0
+"spc.pres1.FirmicutesBacilliThermoactinomycetalesThermoactinomycetaceaeLaceyella"	0
+"spc.pres1.FirmicutesBacilliThermoactinomycetalesThermoactinomycetaceaeThermoactinomyces"	0
+"spc.pres1.FirmicutesClostridiaCaldicoprobacteralesCaldicoprobacteraceaeCaldicoprobacter"	0
+"spc.pres1.FirmicutesClostridiaChristensenellalesChristensenellaceaeChristensenellaceae.R.7.group"	1
+"spc.pres1.FirmicutesClostridiaChristensenellalesChristensenellaceaeuncultured"	0
+"spc.pres1.FirmicutesClostridiaClostridia.vadinBB60.group"	0
+"spc.pres1.FirmicutesClostridiaClostridialesClostridiaceaeClostridium.sensu.stricto.2"	0
+"spc.pres1.FirmicutesClostridiaClostridialesClostridiaceaeClostridium.sensu.stricto.3"	0
+"spc.pres1.FirmicutesClostridiaClostridialesOxobacteraceaeOxobacter"	0
+"spc.pres1.FirmicutesClostridiaClostridialesuncultured"	0
+"spc.pres1.FirmicutesClostridiaEubacterialesAlkalibacteraceaeAlkalibacter"	0
+"spc.pres1.FirmicutesClostridiaEubacterialesEubacteriaceaeEubacterium"	0
+"spc.pres1.FirmicutesClostridiaEubacterialesGarciellaceaeIrregularibacter"	1
+"spc.pres1.FirmicutesClostridiaGracilibacteraceaeGracilibacter"	1
+"spc.pres1.FirmicutesClostridiaGracilibacteraceaeLutispora"	0
+"spc.pres1.FirmicutesClostridiaLachnospiralesDefluviitaleaceaeDefluviitaleaceae.UCG.011"	0
+"spc.pres1.FirmicutesClostridiaLachnospiralesLachnospiraceae.Eubacterium..fissicatena.group"	0
+"spc.pres1.FirmicutesClostridiaLachnospiralesLachnospiraceaeAnaerostipes"	1
+"spc.pres1.FirmicutesClostridiaLachnospiralesLachnospiraceaeCatonella"	0
+"spc.pres1.FirmicutesClostridiaLachnospiralesLachnospiraceaeDorea"	1
+"spc.pres1.FirmicutesClostridiaLachnospiralesLachnospiraceaeJohnsonella"	0
+"spc.pres1.FirmicutesClostridiaLachnospiralesLachnospiraceaeLachnoanaerobaculum"	1
+"spc.pres1.FirmicutesClostridiaLachnospiralesLachnospiraceaeLachnoclostridium"	0
+"spc.pres1.FirmicutesClostridiaLachnospiralesLachnospiraceaeLachnospiraceae.AC2044.group"	0
+"spc.pres1.FirmicutesClostridiaLachnospiralesLachnospiraceaeLachnospiraceae.NC2004.group"	0
+"spc.pres1.FirmicutesClostridiaLachnospiralesLachnospiraceaeLachnospiraceae.NK4A136.group"	0
+"spc.pres1.FirmicutesClostridiaLachnospiralesLachnospiraceaeLachnospiraceae.UCG.004"	0
+"spc.pres1.FirmicutesClostridiaLachnospiralesLachnospiraceaeLachnospiraceae.UCG.008"	0
+"spc.pres1.FirmicutesClostridiaLachnospiralesLachnospiraceaeNatranaerovirga"	0
+"spc.pres1.FirmicutesClostridiaLachnospiralesLachnospiraceaeOribacterium"	0
+"spc.pres1.FirmicutesClostridiaLachnospiralesLachnospiraceaeRoseburia"	0
+"spc.pres1.FirmicutesClostridiaLachnospiralesLachnospiraceaeStomatobaculum"	0
+"spc.pres1.FirmicutesClostridiaLachnospiralesLachnospiraceaeTyzzerella"	0
+"spc.pres1.FirmicutesClostridiaLachnospiralesLachnospiraceaeuncultured"	1
+"spc.pres1.FirmicutesClostridiaMAT.CR.H4.C10"	0
+"spc.pres1.FirmicutesClostridiaOscillospirales.Eubacterium..coprostanoligenes.group"	0
+"spc.pres1.FirmicutesClostridiaOscillospiralesButyricicoccaceaeuncultured"	0
+"spc.pres1.FirmicutesClostridiaOscillospiralesHungateiclostridiaceaeFastidiosipila"	0
+"spc.pres1.FirmicutesClostridiaOscillospiralesHungateiclostridiaceaeRuminiclostridium"	0
+"spc.pres1.FirmicutesClostridiaOscillospiralesHungateiclostridiaceaeuncultured"	0
+"spc.pres1.FirmicutesClostridiaOscillospiralesHydrogenoanaerobacterium"	1
+"spc.pres1.FirmicutesClostridiaOscillospiralesOscillospiraceaeColidextribacter"	0
+"spc.pres1.FirmicutesClostridiaOscillospiralesOscillospiraceaeIntestinimonas"	0
+"spc.pres1.FirmicutesClostridiaOscillospiralesOscillospiraceaeNK4A214.group"	0
+"spc.pres1.FirmicutesClostridiaOscillospiralesOscillospiraceaeOscillibacter"	0
+"spc.pres1.FirmicutesClostridiaOscillospiralesOscillospiraceaeUCG.002"	0
+"spc.pres1.FirmicutesClostridiaOscillospiralesOscillospiraceaeUCG.003"	0
+"spc.pres1.FirmicutesClostridiaOscillospiralesOscillospiraceaeuncultured"	0
+"spc.pres1.FirmicutesClostridiaOscillospiralesRuminococcaceaeAngelakisella"	0
+"spc.pres1.FirmicutesClostridiaOscillospiralesRuminococcaceaeFournierella"	0
+"spc.pres1.FirmicutesClostridiaOscillospiralesRuminococcaceaeIncertae.Sedis"	0
+"spc.pres1.FirmicutesClostridiaOscillospiralesRuminococcaceaeRuminococcus"	0
+"spc.pres1.FirmicutesClostridiaOscillospiralesRuminococcaceaeuncultured"	1
+"spc.pres1.FirmicutesClostridiaOscillospiralesUCG.010"	0
+"spc.pres1.FirmicutesClostridiaOscillospiralesuncultured"	0
+"spc.pres1.FirmicutesClostridiaPeptococcalesPeptococcaceaeuncultured"	0
+"spc.pres1.FirmicutesClostridiaPeptostreptococcales.TissierellalesAnaerovoracaceae.Eubacterium..nodatum.group"	0
+"spc.pres1.FirmicutesClostridiaPeptostreptococcales.TissierellalesAnaerovoracaceaeAnaerovorax"	0
+"spc.pres1.FirmicutesClostridiaPeptostreptococcales.TissierellalesAnaerovoracaceaeMogibacterium"	0
+"spc.pres1.FirmicutesClostridiaPeptostreptococcales.TissierellalesFamily.XIEzakiella"	0
+"spc.pres1.FirmicutesClostridiaPeptostreptococcales.TissierellalesFamily.XIFenollaria"	0
+"spc.pres1.FirmicutesClostridiaPeptostreptococcales.TissierellalesFamily.XIMurdochiella"	0
+"spc.pres1.FirmicutesClostridiaPeptostreptococcales.TissierellalesFamily.XIParvimonas"	1
+"spc.pres1.FirmicutesClostridiaPeptostreptococcales.TissierellalesNatronincola"	0
+"spc.pres1.FirmicutesClostridiaPeptostreptococcales.TissierellalesPeptostreptococcaceae.Eubacterium..yurii.group"	0
+"spc.pres1.FirmicutesClostridiaPeptostreptococcales.TissierellalesPeptostreptococcaceaeFilifactor"	0
+"spc.pres1.FirmicutesClostridiaPeptostreptococcales.TissierellalesPeptostreptococcaceaePeptoclostridium"	1
+"spc.pres1.FirmicutesClostridiaPeptostreptococcales.TissierellalesPeptostreptococcaceaePeptostreptococcus"	0
+"spc.pres1.FirmicutesClostridiaPeptostreptococcales.TissierellalesPeptostreptococcaceaeRomboutsia"	0
+"spc.pres1.FirmicutesClostridiaPeptostreptococcales.TissierellalesPeptostreptococcaceaeTepidibacter"	0
+"spc.pres1.FirmicutesClostridiaPeptostreptococcales.TissierellalesPeptostreptococcaceaeTerrisporobacter"	1
+"spc.pres1.FirmicutesClostridiaPeptostreptococcales.Tissierellalesuncultured"	0
+"spc.pres1.FirmicutesD8A.2"	1
+"spc.pres1.FirmicutesDesulfitobacteriiaDesulfitobacterialesuncultured"	1
+"spc.pres1.FirmicutesDethiobacteriaDethiobacteralesDethiobacteraceaeDethiobacter"	0
+"spc.pres1.FirmicutesIncertae.SedisDTU014"	0
+"spc.pres1.FirmicutesLimnochordiaLimnochordalesLimnochordaceae"	1
+"spc.pres1.FirmicutesLimnochordiaM55.D21"	0
+"spc.pres1.FirmicutesLimnochordiaMBA03"	1
+"spc.pres1.FirmicutesNatranaerobiiaNatranaerobialesNatranaerobiaceaeuncultured"	0
+"spc.pres1.FirmicutesNegativicutesVeillonellales.SelenomonadalesSelenomonadaceaeCentipeda"	0
+"spc.pres1.FirmicutesNegativicutesVeillonellales.SelenomonadalesSelenomonadaceaeuncultured"	0
+"spc.pres1.FirmicutesNegativicutesVeillonellales.SelenomonadalesVeillonellaceaeDialister"	0
+"spc.pres1.FirmicutesNegativicutesVeillonellales.SelenomonadalesVeillonellaceaeMegasphaera"	0
+"spc.pres1.FirmicutesThermoanaerobacteriaThermoanaerobacteralesThermoanaerobacteraceaeThermanaeromonas"	0
+"spc.pres1.FusobacteriotaFusobacteriiaFusobacterialesFusobacteriaceaeCetobacterium"	0
+"spc.pres1.HydrogenedentesHydrogenedentiaHydrogenedentialesHydrogenedensaceaeYC.ZSS.LKJ63"	0
+"spc.pres1.LatescibacterotaLatescibacteriaLatescibacteralesLatescibacteraceae"	0
+"spc.pres1.MethylomirabilotaMethylomirabiliaMethylomirabilalesMethylomirabilaceaewb1.A12"	0
+"spc.pres1.MyxococcotaPolyangiaMidBa8"	0
+"spc.pres1.MyxococcotaPolyangiaMSB.4B10"	0
+"spc.pres1.MyxococcotaPolyangiaNannocystalesNannocystaceae"	1
+"spc.pres1.MyxococcotaPolyangiaNannocystalesNannocystaceaePseudenhygromyxa"	1
+"spc.pres1.MyxococcotaPolyangiaPolyangialesPhaselicystidaceaePhaselicystis"	0
+"spc.pres1.MyxococcotaPolyangiaPolyangialesPolyangiaceaeChondromyces"	0
+"spc.pres1.MyxococcotaPolyangiaPolyangialesPolyangiaceaeMinicystis"	0
+"spc.pres1.MyxococcotaPolyangiaPolyangialesPolyangiaceaePajaroellobacter"	1
+"spc.pres1.MyxococcotaPolyangiaPolyangialesPolyangiaceaeSorangium"	0
+"spc.pres1.MyxococcotaPolyangiaPS.B29"	1
+"spc.pres1.MyxococcotaPolyangiaVHS.B4.70"	0
+"spc.pres1.Nitrospirota4.29.1"	1
+"spc.pres1.PatescibacteriaABY1Candidatus.Magasanikbacteria"	0
+"spc.pres1.PatescibacteriaDojkabacteria"	1
+"spc.pres1.PatescibacteriaGracilibacteriaCandidatus.Abawacabacteria"	1
+"spc.pres1.PatescibacteriaKazania"	0
+"spc.pres1.PatescibacteriaMicrogenomatiaCandidatus.Curtissbacteria"	1
+"spc.pres1.PatescibacteriaMicrogenomatiaCandidatus.Pacebacteria"	0
+"spc.pres1.PatescibacteriaParcubacteriaCandidatus.Adlerbacteria"	0
+"spc.pres1.PatescibacteriaParcubacteriaCandidatus.Colwellbacteria"	1
+"spc.pres1.PatescibacteriaParcubacteriaCandidatus.Jorgensenbacteria"	1
+"spc.pres1.PatescibacteriaParcubacteriaCandidatus.Liptonbacteria"	0
+"spc.pres1.PatescibacteriaParcubacteriaCandidatus.Ryanbacteria"	0
+"spc.pres1.PatescibacteriaParcubacteriaCandidatus.Staskawiczbacteria"	0
+"spc.pres1.PatescibacteriaParcubacteriaCandidatus.Terrybacteria"	0
+"spc.pres1.PatescibacteriaParcubacteriaCandidatus.Vogelbacteria"	0
+"spc.pres1.PatescibacteriaParcubacteriaCandidatus.Yonathbacteria"	1
+"spc.pres1.PatescibacteriaParcubacteriaGWA2.38.13b"	1
+"spc.pres1.PatescibacteriaSaccharimonadiaSaccharimonadalesSaccharimonadaceae"	1
+"spc.pres1.PatescibacteriaSaccharimonadiaSaccharimonadalesSaccharimonadaceaeTM7a"	1
+"spc.pres1.PlanctomycetotaBrocadiaeBrocadialesScalinduaceaeCandidatus.Scalindua"	0
+"spc.pres1.PlanctomycetotaPhycisphaeraeAmsterdam.1B.07"	0
+"spc.pres1.PlanctomycetotaPhycisphaeraeB103G10"	1
+"spc.pres1.PlanctomycetotaPhycisphaeraeMSBL9SG8.4"	0
+"spc.pres1.PlanctomycetotaPhycisphaeraePhycisphaeralesAKAU3564.sediment.group"	0
+"spc.pres1.PlanctomycetotaPhycisphaeraePhycisphaeralesPhycisphaeraceaeI.8"	0
+"spc.pres1.PlanctomycetotaPhycisphaeraeS.70"	0
+"spc.pres1.PlanctomycetotaPlanctomycetesGemmatalesGemmataceaeFimbriiglobus"	0
+"spc.pres1.PlanctomycetotaPlanctomycetesGemmatalesGemmataceaeGemmata"	0
+"spc.pres1.PlanctomycetotaPlanctomycetesGemmatalesGemmataceaeuncultured"	1
+"spc.pres1.PlanctomycetotaPlanctomycetesPirellulalesPirellulaceae"	0
+"spc.pres1.PlanctomycetotaPlanctomycetesPirellulalesPirellulaceaeCandidatus.Anammoximicrobium"	0
+"spc.pres1.PlanctomycetotaPlanctomycetesPlanctomycetalesRubinisphaeraceaePlanctomicrobium"	1
+"spc.pres1.PlanctomycetotaPlanctomycetesPlanctomycetalesRubinisphaeraceaeSH.PL14"	0
+"spc.pres1.PlanctomycetotaSGST604"	1
+"spc.pres1.PlanctomycetotaSPG12.343.353.B69"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteria"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaAcetobacteralesAcetobacteraceaeAcidiphilium"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaAcetobacteralesAcetobacteraceaeAcidisphaera"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaAcetobacteralesAcetobacteraceaeCraurococcus.Caldovatus"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaAcetobacteralesAcetobacteraceaeRoseomonas"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaAcetobacteralesAcetobacteraceaeuncultured"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaAzospirillalesAzospirillaceaeSkermanella"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaCaedibacteralesCaedibacteraceaeCaedibacter"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaCaulobacteralesCaulobacteraceaeAsticcacaulis"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaCaulobacteralesCaulobacteraceaePhenylobacterium"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaCaulobacteralesHyphomonadaceaeFretibacter"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaCaulobacteralesHyphomonadaceaeHyphobacterium"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaCaulobacteralesParvularculaceaeAmphiplicatus"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaCaulobacteralesParvularculaceaeuncultured"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaCaulobacteralesuncultured"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaElsteralesElsteraceaeElstera"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaElsteralesElsteraceaeuncultured"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaElsteralesURHD0088"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaFerrovibrionalesTaonella"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaHolosporalesHolosporaceae"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaHolosporalesHolosporaceaeCandidatus.Paraholospora"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaKiloniellalesFodinicurvataceaeFodinicurvata"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaKiloniellalesKiloniellaceaeKiloniella"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaKiloniellalesKiloniellaceaeLimibacillus"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaKordiimonadalesIodidimonadaceaeIodidimonas"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaKordiimonadalesKordiimonadales.Incertae.SedisEilatimonas"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaMicropepsalesMicropepsaceaeuncultured"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaParacaedibacteralesParacaedibacteraceaeCandidatus.Finniella"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaParvibaculales"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaParvibaculalesParvibaculaceae"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaParvibaculalesParvibaculaceaeCandidatus.Phaeomarinobacter"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaParvibaculalesParvibaculaceaeParvibaculum"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaPuniceispirillales"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaPuniceispirillalesEF100.94H03"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaPuniceispirillalesPuniceispirillales.Incertae.SedisConstrictibacter"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaReyranellalesReyranellaceaeReyranella"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaReyranellalesReyranellaceaeuncultured"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesA0839"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesBeijerinckiaceae"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesBeijerinckiaceae1174.901.12"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesBeijerinckiaceaealphaI.cluster"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesBeijerinckiaceaeBosea"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesBeijerinckiaceaeChelatococcus"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesBeijerinckiaceaeFukuN57"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesBeijerinckiaceaeMethylocystis"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesBeijerinckiaceaeMethylorosula"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesBeijerinckiaceaeMethylosinus"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesBeijerinckiaceaeMicrovirga"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesBeijerinckiaceaeSalinarimonas"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesBeijerinckiaceaeuncultured"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesC2U"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesD05.2"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesDevosiaceaePelagibacterium"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesDevosiaceaeuncultured"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesDevosiaceaeYouhaiella"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesHyphomicrobiaceaePedomicrobium"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesLutibaculaceaeLutibaculum"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesMethyloligellaceaeMethyloceanibacter"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesMethyloligellaceaeRhodobium"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesMethylopilaceaeHansschlegelia"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesPleomorphomonadaceaeChthonobacter"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesPleomorphomonadaceaeMethylobrevis"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesPleomorphomonadaceaePleomorphomonas"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesRhizobiaceae"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesRhizobiaceaeAureimonas"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesRhizobiaceaeBartonella"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesRhizobiaceaeCandidatus.Liberibacter"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesRhizobiaceaeCandidatus.Tokpelaia"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesRhizobiaceaeCiceribacter"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesRhizobiaceaeCorticibacterium"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesRhizobiaceaeEnsifer"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesRhizobiaceaeFalsochrobactrum"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesRhizobiaceaeHoeflea"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesRhizobiaceaeMartelella"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesRhizobiaceaeOricola"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesRhizobiaceaePaenochrobactrum"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesRhizobiaceaeShinella"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesRhizobiaceaeTianweitania"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesRhizobiales.Incertae.SedisDichotomicrobium"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesRhizobiales.Incertae.SedisNordella"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesRhizobiales.Incertae.Sedisuncultured"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesRhodobiaceaeAfifella"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesStappiaceaeBreoghania"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesStappiaceaePannonibacter"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesXanthobacteraceae"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesXanthobacteraceaeAquabacter"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesXanthobacteraceaeAzorhizobium"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesXanthobacteraceaePseudoxanthobacter"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesXanthobacteraceaeRhodoplanes"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesXanthobacteraceaeVariibacter"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesXanthobacteraceaeXanthobacter"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeAestuariibius"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeAestuariihabitans"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeAquimixticola"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeCereibacter"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeHasllibacter"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeHwanghaeicola"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeKetogulonicigenium"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeMarivivens"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaePaenirhodobacter"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaePalleronia.Pseudomaribius"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaePontibaca"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaePrimorskyibacter"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaePseudaestuariivita"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaePseudooctadecabacter"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaePseudorhodobacter"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaePuniceibacterium"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeRoseinatronobacter"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeRoseisalinus"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeRubribacterium"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeSeohaeicola"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeTabrizicola"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeThiobacimonas"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeVadicella"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeYangia"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhodospirillalesMagnetospirillaceaeuncultured"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhodospirillalesRhodospirillaceaeCandidatus.Riegeria"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhodospirillalesRhodospirillaceaeHaematospirillum"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhodospirillalesRhodospirillaceaeInsolitispirillum"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhodospirillalesRhodospirillaceaeMarispirillum"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhodospirillalesRhodospirillaceaeRhodospirillum"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhodospirillalesTerasakiellaceae"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRickettsialesAnaplasmataceae"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRickettsialesAnaplasmataceaeCandidatus.Neoehrlichia"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRickettsialesCandidatus.Hepatincola"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRickettsialesFokiniaceaeuncultured"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRickettsialesMidichloriaceaeCandidatus.Midichloria"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRickettsialesRickettsiaceae"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRickettsialesRickettsiaceaeCandidatus.Cryptoprodotis"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRickettsialesRickettsiaceaeCandidatus.Gigarickettsia"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRickettsialesRickettsiaceaeRickettsia"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaSphingomonadalesSphingomonadaceae"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaSphingomonadalesSphingomonadaceaeParablastomonas"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaSphingomonadalesSphingomonadaceaePolymorphobacter"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaSphingomonadalesSphingomonadaceaeRhizorhapis"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaSphingomonadalesSphingomonadaceaeSandaracinobacter"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaSphingomonadalesSphingomonadaceaeSphingomicrobium"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaSphingomonadalesSphingomonadaceaeStakelama"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaThalassobaculalesNisaeaceaeNisaea"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaThalassobaculalesThalassobaculaceaeThalassobaculum"	1
+"spc.pres1.ProteobacteriaAlphaproteobacteriaTistrellalesGeminicoccaceaeuncultured"	0
+"spc.pres1.ProteobacteriaGammaproteobacteria1013.28.CG33"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaAcidiferrobacteralesAcidiferrobacteraceae"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaAcidiferrobacteralesAcidiferrobacteraceaeuncultured"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaAcidithiobacillalesAcidithiobacillaceae9M32"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaAcidithiobacillalesAcidithiobacillaceaeRCP1.48"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaArenicellalesArenicellaceaeCandidatus.Thiosymbion"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaArenicellalesArenicellaceaePerspicuibacter"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaAT.s16"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaB108"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBeggiatoalesBeggiatoaceae"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBeggiatoalesBeggiatoaceaeCandidatus.Marithioploca"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBeggiatoalesBeggiatoaceaeCandidatus.Parabeggiatoa"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaBeggiatoalesBeggiatoaceaeCandidatus.Thiophysa"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBeggiatoalesBeggiatoaceaeCandidatus.Thiopilula"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBeggiatoalesBeggiatoaceaeThiomargarita"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBeggiatoalesBeggiatoaceaeuncultured"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesAlcaligenaceaeAchromobacter"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesAlcaligenaceaeParapusillimonas"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesBurkholderiaceaeLautropia"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesComamonadaceae"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesComamonadaceaeAlicycliphilus"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesComamonadaceaeCaldimonas"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesComamonadaceaeCandidatus.Symbiobacter"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesComamonadaceaeDiaphorobacter"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesComamonadaceaeHydrogenophaga"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesComamonadaceaeHylemonella"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesComamonadaceaeIdeonella"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesComamonadaceaeKinneretia"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesComamonadaceaeMitsuaria"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesComamonadaceaePaucibacter"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesComamonadaceaePiscinibacter"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesComamonadaceaePolaromonas"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesComamonadaceaePseudorhodoferax"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesComamonadaceaeRamlibacter"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesComamonadaceaeRhodoferax"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesComamonadaceaeRoseateles"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesComamonadaceaeRubrivivax"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesComamonadaceaeSchlegelella"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesComamonadaceaeThiomonas"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesComamonadaceaeXenophilus"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesGallionellaceaeSideroxydans"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesGallionellaceaeuncultured"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesHydrogenophilaceaeHydrogenophilus"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesHydrogenophilaceaeTepidiphilus"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesHydrogenophilaceaeThiobacillus"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesMethylophilaceaeCandidatus.Methylopumilus"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesMethylophilaceaeMethylobacillus"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesMethylophilaceaeMM2"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesMethylophilaceaeUBA6140"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesMethylophilaceaeuncultured"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesNeisseriaceaeAlysiella"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesNeisseriaceaeKingella"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesNeisseriaceaeSimonsiella"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesNeisseriaceaeuncultured"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesNitrosomonadaceaeDSSD61"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesNitrosomonadaceaemle1.7"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesNitrosomonadaceaeMND1"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesOxalobacteraceaeCandidatus.Profftella"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesOxalobacteraceaeCollimonas"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesOxalobacteraceaeGlaciimonas"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesOxalobacteraceaeHerbaspirillum"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesOxalobacteraceaeNoviherbaspirillum"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesOxalobacteraceaeUndibacterium"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesRhodocyclaceaeAzovibrio"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesRhodocyclaceaeDechloromonas"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesRhodocyclaceaeDenitromonas"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesRhodocyclaceaePropionivibrio"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesRhodocyclaceaeSulfuritalea"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesRhodocyclaceaeThauera"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesRhodocyclaceaeUliginosibacterium"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesRhodocyclaceaeuncultured"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesSulfuricellaceaeFerritrophicum"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesSutterellaceaeAAP99"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesSutterellaceaeSutterella"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesSutterellaceaeuncultured"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesTRA3.20"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaCCM19a"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaChromatialesChromatiaceaeHalochromatium"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaChromatialesChromatiaceaeThiophaeococcus"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaChromatialesChromatiaceaeuncultured"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaDiplorickettsialesDiplorickettsiaceaeAquicella"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaDiplorickettsialesDiplorickettsiaceaeRickettsiella"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaEctothiorhodospiralesAcidihalobacteraceaeAcidihalobacter"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaEctothiorhodospiralesEctothiorhodospiraceae"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaEctothiorhodospiralesEctothiorhodospiraceaeHalofilum"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaEctothiorhodospiralesEctothiorhodospiraceaeThioalkalivibrio"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaEctothiorhodospiralesEctothiorhodospiraceaeThiorhodospira"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaEctothiorhodospiralesThioalkalispiraceaeuncultured"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaEnterobacteralesAeromonadaceaeOceanisphaera"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaEnterobacteralesAlteromonadaceaeAlishewanella"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaEnterobacteralesCelerinatantimonadaceaeCelerinatantimonas"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaEnterobacteralesEnterobacteriaceae"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaEnterobacteralesEnterobacteriaceaeCitrobacter"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaEnterobacteralesEnterobacteriaceaeEnterobacillus"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaEnterobacteralesEnterobacteriaceaeFranconibacter"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaEnterobacteralesEnterobacteriaceaeKluyvera"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaEnterobacteralesEnterobacteriaceaeMangrovibacter"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaEnterobacteralesEnterobacteriaceaeRaoultella"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaEnterobacteralesEnterobacteriaceaeSalmonella"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaEnterobacteralesErwiniaceaeErwinia"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaEnterobacteralesErwiniaceaeIzhakiella"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaEnterobacteralesErwiniaceaeRosenbergiella"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaEnterobacteralesErwiniaceaeSiccibacter"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaEnterobacteralesIdiomarinaceaeAliidiomarina"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaEnterobacteralesJI49D030"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaEnterobacteralesMorganellaceae"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaEnterobacteralesMorganellaceaeArsenophonus"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaEnterobacteralesMorganellaceaeCandidatus.Hamiltonella"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaEnterobacteralesMorganellaceaeendosymbionts"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaEnterobacteralesMorganellaceaeProvidencia"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaEnterobacteralesPasteurellaceaeActinobacillus"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaEnterobacteralesPasteurellaceaeAggregatibacter"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaEnterobacteralesPasteurellaceaeMannheimia"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaEnterobacteralesPasteurellaceaeRodentibacter"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaEnterobacteralesPseudoalteromonadaceae"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaEnterobacteralesPsychromonadaceaeAliagarivorans"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaEnterobacteralesVibrionaceaeSalinivibrio"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaEnterobacteralesYersiniaceaeChania"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaEnterobacteralesYersiniaceaeGibbsiella"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaEnterobacteralesYersiniaceaeSerratia"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaEnterobacteralesYersiniaceaeYersinia"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaeub62A3"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaFGL7S"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaFrancisellalesFrancisellaceaeAllofrancisella"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaFrancisellalesFrancisellaceaeFangia"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaGammaproteobacteria.Incertae.SedisUnknown.FamilyCandidatus.Ovatusbacter"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaGammaproteobacteria.Incertae.SedisUnknown.FamilyEndothiovibrio"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaGammaproteobacteria.Incertae.SedisUnknown.FamilySulfuriflexus"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaGranulosicoccalesuncultured"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaHalothiobacillalesHalothiobacillaceaeHalothiobacillus"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaImmundisolibacteralesImmundisolibacteraceaeImmundisolibacter"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaImmundisolibacteralesImmundisolibacteraceaeuncultured"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaJG36.GS.52"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaMethylococcalesMethylococcaceae"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaMethylococcalesMethylococcaceaeMethylococcus"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaMethylococcalesMethylococcaceaeuncultured"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaMethylococcalesMethylomonadaceaeET.SHO"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaMilano.WF1B.44"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaNitrococcalesHalorhodospiraceaeAlkalilimnicola"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaNitrococcalesHalorhodospiraceaeAlkalispirillum"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaNitrococcalesHalorhodospiraceaeSulfurivirga"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaNitrococcalesNitrococcaceaeArhodomonas"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaNitrococcalesNitrococcales.Incertae.SedisMethylonatrum"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaNitrococcalesNitrococcales.Incertae.SedisNatronocella"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaNitrosococcalesMethylophagaceae"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaNitrosococcalesNitrosococcaceaeSZB85"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaNitrosococcalesNitrosococcaceaewb1.P19"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaNKB5"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaPiscirickettsialesPiscirickettsiaceaePiscirickettsia"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaPLTA13"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaPseudomonadales211ds20"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaPseudomonadalesCellvibrionaceaeGilvimarinus"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaPseudomonadalesCellvibrionaceaeHalioxenophilus"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaPseudomonadalesCellvibrionaceaeMarinibactrum"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaPseudomonadalesCellvibrionaceaeTeredinibacter"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaPseudomonadalesHalomonadaceae"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaPseudomonadalesHalomonadaceaeCarnimonas"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaPseudomonadalesHalomonadaceaeMarinospirillum"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaPseudomonadalesHalomonadaceaeModicisalibacter"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaPseudomonadalesMoraxellaceaeCavicella"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaPseudomonadalesMoraxellaceaeFluviicoccus"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaPseudomonadalesNitrincolaceaeMotiliproteus"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaPseudomonadalesPseudomonadaceaeAzomonas"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaPseudomonadalesSaccharospirillaceaeSaccharospirillum"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaPseudomonadalesThioglobaceaeCandidatus.Thioglobus"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaPseudomonadalesThioglobaceaeCandidatus.Vesicomyosocius"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaPseudomonadalesThioglobaceaeV38"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaRun.SP154"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaSalinisphaeralesAlgiphilaceaeAlgiphilus"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaSalinisphaeralesSalinisphaeraceaeSalinisphaera"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaSteroidobacteralesSteroidobacteraceaeuncultured"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaSZB7"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaThiomicrospiralesThiomicrospiraceaeThiomicrospira"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaThiomicrospiralesThiomicrospiraceaeuncultured"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaThiotrichalesThiotrichaceae"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaThiotrichalesThiotrichaceaeCandidatus.Navis"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaWN.HWB.116"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaXanthomonadalesRhodanobacteraceaeAhniella"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaXanthomonadalesRhodanobacteraceaeAquimonas"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaXanthomonadalesRhodanobacteraceaeDokdonella"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaXanthomonadalesRhodanobacteraceaeLuteibacter"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaXanthomonadalesRhodanobacteraceaePseudofulvimonas"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaXanthomonadalesRhodanobacteraceaeTahibacter"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaXanthomonadalesuncultured"	1
+"spc.pres1.ProteobacteriaGammaproteobacteriaXanthomonadalesXanthomonadaceaeArenimonas"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaXanthomonadalesXanthomonadaceaeLysobacter"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaXanthomonadalesXanthomonadaceaePseudoxanthomonas"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaXanthomonadalesXanthomonadaceaeSilanimonas"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaXanthomonadalesXanthomonadaceaeuncultured"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaXanthomonadalesXanthomonadaceaeVulcaniibacterium"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaXanthomonadalesXanthomonadaceaeXanthomonas"	0
+"spc.pres1.ProteobacteriaZetaproteobacteriaMariprofundalesMariprofundaceaeMariprofundus"	1
+"spc.pres1.SARStramenopilesMAST.3MAST.3B"	0
+"spc.pres1.SARStramenopilesMAST.3MAST.3I"	0
+"spc.pres1.SARStramenopilesMAST.3MAST.3J"	1
+"spc.pres1.Spirochaetota"	1
+"spc.pres1.SpirochaetotaLeptospiraeLeptospiralesLeptospiraceaeTurneriella"	0
+"spc.pres1.SpirochaetotaLeptospiraeLeptospiralesLeptospiraceaeuncultured"	0
+"spc.pres1.SpirochaetotaSpirochaetiaSpirochaetalesSpirochaetaceaeSphaerochaeta"	0
+"spc.pres1.SpirochaetotaSpirochaetiaSpirochaetalesSpirochaetaceaeTreponema"	1
+"spc.pres1.SpirochaetotaSpirochaetiaSpirochaetalesSpirochaetaceaeuncultured"	0
+"spc.pres1.Sva0485"	0
+"spc.pres1.TX1A.33"	1
+"spc.pres1.VerrucomicrobiotaChlamydiaeChlamydialesChlamydiaceae"	1
+"spc.pres1.VerrucomicrobiotaChlamydiaeChlamydialesCriblamydiaceae"	0
+"spc.pres1.VerrucomicrobiotaChlamydiaeChlamydialesCriblamydiaceaeuncultured"	0
+"spc.pres1.VerrucomicrobiotaChlamydiaeChlamydialescvE6"	0
+"spc.pres1.VerrucomicrobiotaChlamydiaeChlamydialesParachlamydiaceae"	1
+"spc.pres1.VerrucomicrobiotaChlamydiaeChlamydialesParachlamydiaceaeCandidatus.Mesochlamydia"	1
+"spc.pres1.VerrucomicrobiotaChlamydiaeChlamydialesParachlamydiaceaeCandidatus.Metachlamydia"	1
+"spc.pres1.VerrucomicrobiotaChlamydiaeChlamydialesParachlamydiaceaeuncultured"	1
+"spc.pres1.VerrucomicrobiotaLentisphaeriaVictivallalesBD2.3"	0
+"spc.pres1.VerrucomicrobiotaVerrucomicrobiaeChthoniobacteralesChthoniobacteraceaeCandidatus.Udaeobacter"	0
+"spc.pres1.VerrucomicrobiotaVerrucomicrobiaeLD1.PB3"	1
+"spc.pres1.VerrucomicrobiotaVerrucomicrobiaeOpitutalesOpitutaceaeDiplosphaera"	1
+"spc.pres1.VerrucomicrobiotaVerrucomicrobiaeOpitutalesPuniceicoccaceaePuniceicoccus"	0
+"spc.pres1.VerrucomicrobiotaVerrucomicrobiaeOpitutalesPuniceicoccaceaeuncultured"	1
+"spc.pres1.VerrucomicrobiotaVerrucomicrobiaePedosphaeralesPedosphaeraceaePedosphaera"	0
+"spc.pres1.VerrucomicrobiotaVerrucomicrobiaeVerrucomicrobialesAkkermansiaceaeAkkermansia"	0
+"spc.pres1.VerrucomicrobiotaVerrucomicrobiaeVerrucomicrobialesVerrucomicrobiaceaeVerrucomicrobium"	0
+"spc.pres1.WOR.1"	1
+"spc.pres1.AcidobacteriotaBlastocatelliaBlastocatellalesBlastocatellaceae"	0
+"spc.pres1.AcidobacteriotaBlastocatelliaBlastocatellalesBlastocatellaceaeStenotrophobacter"	0
+"spc.pres1.AcidobacteriotaHolophagaeHolophagalesHolophagaceaemarine.group"	0
+"spc.pres1.ActinobacteriotaActinobacteriaFrankialesuncultured"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesIntrasporangiaceaeIntrasporangium"	0
+"spc.pres1.ActinobacteriotaActinobacteriaStreptosporangialesStreptosporangiaceaeNonomuraea"	0
+"spc.pres1.ChloroflexiDehalococcoidiaDehalococcoidalesDehalococcoidaceaeDehalogenimonas"	0
+"spc.pres1.ChloroflexiDehalococcoidiaDehalococcoidalesuncultured"	0
+"spc.pres1.ChloroflexiDehalococcoidiavadinBA26"	0
+"spc.pres1.ChloroflexiGitt.GS.136"	0
+"spc.pres1.ChloroflexiTK10"	0
+"spc.pres1.CyanobacteriaCyanobacteriiaCyanobacterialesNostocaceaeRichelia.HH01"	0
+"spc.pres1.CyanobacteriaCyanobacteriiaEurycoccalesuncultured"	0
+"spc.pres1.DesulfobacterotaDesulfobacteriaDesulfobacteralesDesulfosarcinaceaeDesulfatirhabdium"	0
+"spc.pres1.DesulfobacterotaDesulfuromonadiaDesulfuromonadalesGeopsychrobacteraceaeDesulfuromusa"	0
+"spc.pres1.FirmicutesBacilliBacillalesBacillaceaeTerribacillus"	0
+"spc.pres1.FirmicutesBacilliBacillalesBacillaceaeuncultured"	0
+"spc.pres1.FirmicutesBacilliLactobacillalesLactobacillaceaeLigilactobacillus"	0
+"spc.pres1.FirmicutesBacilliMycoplasmatalesMycoplasmataceaeuncultured"	0
+"spc.pres1.FirmicutesBacilliPaenibacillalesPaenibacillaceaeuncultured"	0
+"spc.pres1.FirmicutesClostridiaPeptostreptococcales.TissierellalesFamily.XIuncultured"	0
+"spc.pres1.FirmicutesNegativicutesAcidaminococcalesAcidaminococcaceaeSucciniclasticum"	0
+"spc.pres1.MyxococcotaPolyangiaNannocystalesNannocystaceaePlesiocystis"	0
+"spc.pres1.MyxococcotaPolyangiaPolyangialesPolyangiaceaeuncultured"	0
+"spc.pres1.PatescibacteriaParcubacteriaUBA9983"	0
+"spc.pres1.PlanctomycetotaPhycisphaeraePhycisphaeralesPhycisphaeraceaeZ195MB87"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaParacaedibacteralesParacaedibacteraceaeCandidatus.Odyssella"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesDevosiaceaeCucumibacter"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesRhizobiaceaeAliihoeflea"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesRhizobiaceaePseudochrobactrum"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesRhodomicrobiaceaeRhodomicrobium"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesStappiaceaeRhodothalassium"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeSalipiger"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRickettsialesRickettsiaceaeOrientia"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaSphingomonadalesSphingomonadaceaeMN.122.2a"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBeggiatoalesBeggiatoaceaeThioflexothrix"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesComamonadaceaeXylophilus"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaEctothiorhodospiralesEctothiorhodospiraceaeThioalbus"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaEnterobacteralesAeromonadaceaeOceanimonas"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaEnterobacteralesBudviciaceaePragia"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaEnterobacteralesMorganellaceaeProteus"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaMethylococcalesMethylomonadaceaeMethylosphaera"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaNitrococcalesHalorhodospiraceaeuncultured"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaPseudomonadalesCellvibrionaceaeMarinagarivorans"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaPseudomonadalesEndozoicomonadaceaeZooshikella"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaPseudomonadalesSaccharospirillaceaeGynuella"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaPseudomonadalesSaccharospirillaceaeSalinispirillum"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaXanthomonadalesXanthomonadaceaeThermomonas"	0
+"spc.pres1.AcidobacteriotaAcidobacteriaeSubgroup.2"	0
+"spc.pres1.AcidobacteriotaAminicenantiaAminicenantales"	0
+"spc.pres1.AcidobacteriotaSubgroup.18"	0
+"spc.pres1.ActinobacteriotaActinobacteriaFrankialesSporichthyaceaeuncultured"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesBogoriellaceaeGeorgenia"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesDermacoccaceaeCalidifontibacter"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesDermacoccaceaeYimella"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesIntrasporangiaceaeLapillicoccus"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesIntrasporangiaceaePedococcus.Phycicoccus"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesMicrobacteriaceaeCryocola"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesMicrobacteriaceaeCurtobacterium"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesMicrobacteriaceaeFrondihabitans"	0
+"spc.pres1.ActinobacteriotaActinobacteriaMicrococcalesMicrobacteriaceaeMarisediminicola"	0
+"spc.pres1.ActinobacteriotaActinobacteriaPseudonocardialesPseudonocardiaceaeActinokineospora"	0
+"spc.pres1.ActinobacteriotaActinobacteriaPseudonocardialesPseudonocardiaceaeLechevalieria"	0
+"spc.pres1.ActinobacteriotaRubrobacteriaRubrobacteralesRubrobacteriaceaeRubrobacter"	0
+"spc.pres1.ArmatimonadotaFimbriimonadiaFimbriimonadales"	0
+"spc.pres1.BacteroidotaBacteroidiaBacteroidalesMarinilabiliaceaeLabilibacter"	0
+"spc.pres1.BacteroidotaBacteroidiaBacteroidalesPrevotellaceaeuncultured"	0
+"spc.pres1.BacteroidotaBacteroidiaBacteroidalesProlixibacteraceaeuncultured"	0
+"spc.pres1.BacteroidotaBacteroidiaCytophagalesCyclobacteriaceaeCesiribacter"	0
+"spc.pres1.BacteroidotaBacteroidiaCytophagalesCyclobacteriaceaeMarivirga"	0
+"spc.pres1.BacteroidotaBacteroidiaCytophagalesHymenobacteraceaeNibribacter"	0
+"spc.pres1.BacteroidotaBacteroidiaCytophagalesMWH.CFBk5"	0
+"spc.pres1.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeAestuariivivens"	0
+"spc.pres1.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeEudoraea"	0
+"spc.pres1.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeFrondibacter"	0
+"spc.pres1.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeHwangdonia"	0
+"spc.pres1.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeLeptobacterium"	0
+"spc.pres1.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeLutaonella"	0
+"spc.pres1.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeMangrovimonas"	0
+"spc.pres1.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeMuriicola"	0
+"spc.pres1.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaePlanktosalinus"	0
+"spc.pres1.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaePostechiella"	0
+"spc.pres1.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeSubsaximicrobium"	0
+"spc.pres1.BacteroidotaBacteroidiaML602M.17"	0
+"spc.pres1.BacteroidotaBacteroidiaSphingobacterialesGWF2.29.10"	0
+"spc.pres1.BacteroidotaBacteroidiaSphingobacterialesS15A.MN91"	0
+"spc.pres1.ChloroflexiDehalococcoidiaDscP2"	0
+"spc.pres1.CyanobacteriaCyanobacteriiaChloroplast"	0
+"spc.pres1.CyanobacteriaCyanobacteriiaCyanobacterialesMicrocystaceaeSU2.symbiont.group"	0
+"spc.pres1.CyanobacteriaCyanobacteriiaCyanobacterialesMicrocystaceaeSynechocystis.CCALA.700"	0
+"spc.pres1.CyanobacteriaCyanobacteriiaCyanobacterialesXenococcaceaeStanieria.PCC.7437"	0
+"spc.pres1.CyanobacteriaCyanobacteriiaEurycoccalesEurycoccales.Incertae.SedisSynechococcus.PCC.7336"	0
+"spc.pres1.CyanobacteriaCyanobacteriiaThermosynechococcalesThermosynechococcaceaeSynechococcus.IR11"	0
+"spc.pres1.DesulfobacterotaDesulfobacteriaDesulfobacteralesDesulfosarcinaceaeDesulfonatronobacter"	0
+"spc.pres1.DesulfobacterotaDesulfobacteriaDesulfobacteralesDesulfosarcinaceaeDesulfosarcina"	0
+"spc.pres1.DesulfobacterotaDesulfobulbiaDesulfobulbalesDesulfocapsaceaeDesulfocapsa"	0
+"spc.pres1.DesulfobacterotaDesulfomoniliaDesulfomonilalesDesulfomonilaceaeDesulfomonile"	0
+"spc.pres1.DesulfobacterotaDesulfuromonadiaDesulfuromonadalesDesulfuromonadaceaeCandidatus.Deferrimonas"	0
+"spc.pres1.DesulfobacterotaDesulfuromonadiaDesulfuromonadalesDesulfuromonadaceaeTrichloromonas"	0
+"spc.pres1.FibrobacterotaFibrobacteriaFibrobacteralesuncultured"	0
+"spc.pres1.FirmicutesBacilliErysipelotrichalesErysipelatoclostridiaceaeCatenibacterium"	0
+"spc.pres1.FirmicutesBacilliLactobacillalesAerococcaceaeGlobicatella"	0
+"spc.pres1.FirmicutesBacilliLactobacillalesCarnobacteriaceaeuncultured"	0
+"spc.pres1.FirmicutesBacilliLactobacillalesLactobacillaceaePediococcus"	0
+"spc.pres1.FirmicutesBacilliLactobacillalesP5D1.392"	0
+"spc.pres1.FirmicutesBacilliStaphylococcalesStaphylococcaceaeSalinicoccus"	0
+"spc.pres1.FirmicutesBacilliuncultured"	0
+"spc.pres1.FirmicutesClostridiaClostridialesClostridiaceaeClostridium.sensu.stricto.11"	0
+"spc.pres1.FirmicutesClostridiaEubacterialesEubacteriaceaePseudoramibacter"	0
+"spc.pres1.FirmicutesClostridiaLachnospiralesLachnospiraceae.Eubacterium..hallii.group"	0
+"spc.pres1.FirmicutesClostridiaLachnospiralesLachnospiraceae.Ruminococcus..torques.group"	0
+"spc.pres1.FirmicutesClostridiaLachnospiralesLachnospiraceaeAnaerostignum"	0
+"spc.pres1.FirmicutesClostridiaLachnospiralesLachnospiraceaeEpulopiscium"	0
+"spc.pres1.FirmicutesClostridiaLachnospiralesLachnospiraceaeLachnospiraceae.FCS020.group"	0
+"spc.pres1.FirmicutesClostridiaOscillospiralesRuminococcaceaeSubdoligranulum"	0
+"spc.pres1.FirmicutesClostridiaPeptostreptococcales.TissierellalesAlkaliphilus"	0
+"spc.pres1.FirmicutesClostridiaPeptostreptococcales.TissierellalesAnaerovoracaceaeS5.A14a"	0
+"spc.pres1.FirmicutesClostridiaPeptostreptococcales.TissierellalesAnaerovoracaceaeuncultured"	0
+"spc.pres1.FirmicutesClostridiaPeptostreptococcales.TissierellalesFamily.XIHelcococcus"	0
+"spc.pres1.FirmicutesClostridiaPeptostreptococcales.TissierellalesFusibacteraceaeFusibacter"	0
+"spc.pres1.FirmicutesClostridiaPeptostreptococcales.TissierellalesPeptostreptococcaceaeuncultured"	0
+"spc.pres1.FirmicutesClostridiaProteinivoracalesuncultured"	0
+"spc.pres1.FirmicutesDesulfotomaculiaDesulfotomaculalesDesulfotomaculales.Incertae.Sedisuncultured"	0
+"spc.pres1.FirmicutesDethiobacteriaDethiobacteralesDethiobacteraceaeCandidatus.Contubernalis"	0
+"spc.pres1.FirmicutesMoorelliaMoorellalesMoorellaceaeMoorella"	0
+"spc.pres1.FirmicutesNegativicutesVeillonellales.SelenomonadalesSelenomonadaceaeAnaerovibrio"	0
+"spc.pres1.FirmicutesNegativicutesVeillonellales.SelenomonadalesSporomusaceaeDendrosporobacter"	0
+"spc.pres1.Firmicutesuncultured"	0
+"spc.pres1.GemmatimonadotaMD2902.B12"	0
+"spc.pres1.MyxococcotaMyxococciaMyxococcalesVulgatibacteraceaeVulgatibacter"	0
+"spc.pres1.MyxococcotaPolyangiaNannocystalesNannocystaceaeEnhygromyxa"	0
+"spc.pres1.MyxococcotaPolyangiaPolyangialesPolyangiaceaeAetherobacter"	0
+"spc.pres1.PlanctomycetotaPlanctomycetesIsosphaeralesIsosphaeraceaeTundrisphaera"	0
+"spc.pres1.PlanctomycetotaPlanctomycetesPlanctomycetalesGimesiaceaeGimesia"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaAlphaproteobacteria.Incertae.SedisUnknown.Family"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaKiloniellalesFodinicurvataceaeuncultured"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesBeijerinckiaceaeMethylovirgula"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesBeijerinckiaceaePseudochelatococcus"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesBeijerinckiaceaePsychroglaciecola"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesMethyloligellaceaeMethyloligella"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesPleomorphomonadaceaeProsthecomicrobium"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesPleomorphomonadaceaeuncultured"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesWC3.116"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesXanthobacteraceaeNitrobacter"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesXanthobacteraceaePseudorhodoplanes"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhizobialesXanthobacteraceaeTardiphaga"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRhodobacteralesRhodobacteraceaeHalodurantibacterium"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaRickettsialesSM1B06"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaTistrellalesGeminicoccaceaeArboricoccus"	0
+"spc.pres1.ProteobacteriaAlphaproteobacteriaTistrellalesGeminicoccaceaeCandidatus.Alysiosphaera"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesAlcaligenaceaeCandidimonas"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesAlcaligenaceaeKerstersia"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesAquaspirillaceaeRivicola"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesBurkholderiaceaePandoraea"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesComamonadaceaeCaenimonas"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesGallionellaceaeFerriphaselus"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesMethylophilaceaeMM1"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaBurkholderialesOxalobacteraceae"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaChromatialesChromatiaceaeThiodictyon"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaEnterobacteralesAlteromonadaceaeNeiella"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaEnterobacteralesErwiniaceaePhaseolibacter"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaEnterobacteralesMorganellaceaeCandidatus.Benitsuchiphilus"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaEnterobacteralesPectobacteriaceaePectobacterium"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaEnterobacteralesPectobacteriaceaeSodalis"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaFrancisellalesFrancisellaceae"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaMethylococcalesMethylococcaceaeCandidatus.Methylospira"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaMethylococcalesMethylococcaceaeMethyloparacoccus"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaMethylococcalesMethylomonadaceaepItb.vmat.59"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaPseudomonadalesCellvibrionaceaeCellvibrio"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaPseudomonadalesHalomonadaceaeHalotalea"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaSalinisphaeralesSolimonadaceaePolycyclovorans"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaXanthomonadalesRhodanobacteraceaeChiayiivirga"	0
+"spc.pres1.ProteobacteriaGammaproteobacteriaXanthomonadalesXanthomonadaceaeRehaibacterium"	0
+"spc.pres1.SynergistotaSynergistiaSynergistalesSynergistaceaeFretibacterium"	0
+"spc.pres1.VerrucomicrobiotaChlamydiaeChlamydialesSimkaniaceaeCandidatus.Renichlamydia"	0
+"spc.pres1.VerrucomicrobiotaLentisphaeriaOligosphaeralesOligosphaeraceaeSBZC.1223"	0
+"spc.pres1.VerrucomicrobiotaVerrucomicrobiaeOpitutalesOpitutaceaeOpitutus"	0
+"spc.pres1.VerrucomicrobiotaVerrucomicrobiaePedosphaeralesPedosphaeraceaeDEV008"	0
+"spc.pres1.VerrucomicrobiotaVerrucomicrobiaeVerrucomicrobialesVerrucomicrobiaceaeProsthecobacter"	0
+"top10.ProteobacteriaGammaproteobacteriaEnterobacteralesPseudoalteromonadaceaePseudoalteromonas"	3971.497034258
+"top10.ProteobacteriaGammaproteobacteriaEnterobacteralesColwelliaceaeColwellia"	1176.372078458
+"top10.ProteobacteriaGammaproteobacteriaEnterobacteralesMoritellaceaeMoritella"	875.19240425
+"top10.ProteobacteriaAlphaproteobacteriaSAR11.cladeClade.IClade.Ia"	616.612528712
+"top10.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaePolaribacter"	562.097872837
+"top10.ProteobacteriaAlphaproteobacteriaSAR11.cladeClade.II"	488.56956956
+"top10.ProteobacteriaGammaproteobacteriaEnterobacteralesVibrionaceaeVibrio"	466.254422808
+"top10.ProteobacteriaAlphaproteobacteriaSAR11.cladeClade.Iuncultured"	432.552363844
+"top10.BacteroidotaBacteroidiaFlavobacterialesFlavobacteriaceaeuncultured"	359.124318986
+"top10.SAR324.clade.Marine.group.B."	350.415280926
