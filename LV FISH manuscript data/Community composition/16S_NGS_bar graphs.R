@@ -569,16 +569,16 @@ ggsave(filename="EN638_Unamended_FLAPS_stagged_Bottom_Genus_5Perc_with_patterns.
 
 #Subsetting the data to include only laminarin and control incubations
 Amend_dA_filt <- InputData_LV_dA_Stagged_5Perc %>% 
-  filter(Substrate_f %in% c("Laminarin", "Amended Meso"))
+  filter(Substrate_f %in% c("Amended Meso"))
 
 Amend_dC_filt <- InputData_LV_dC_Stagged_5Perc %>% 
-  filter(Substrate_f %in% c("Laminarin", "Amended Meso"))
+  filter(Substrate_f %in% c("Amended Meso"))
 
 Unamend_dB_filt <- InputData_dB_Stagged_5Perc %>% 
-  filter(Substrate_f %in% c("Laminarin", "Control"))
+  filter(Substrate_f %in% c("Control"))
 
 Unamend_dD_filt <- InputData_dD_Stagged_5Perc %>% 
-  filter(Substrate_f %in% c("Laminarin", "Control"))
+  filter(Substrate_f %in% c("Control"))
 
 #For the amended mesocosms, we only want to include amended mesocosm 1; in the above
 #code, the other mesocosms are filtered out during the graphing step (i.e., Mesocosm %in% c("1"))
@@ -632,13 +632,12 @@ Total_community_comp <- rbind(Amend_dA_filt, Amend_dC_filt, Unamend_dB_filt, Una
 
 #Factor and define levels for Treatment and IncubationTime
 Total_community_comp$Treatment_f <- factor(Total_community_comp$Treatment, levels = c("Unamended", "Amended"))
-Total_community_comp$Substrate_f <- factor(Total_community_comp$Substrate_f, levels = c("Laminarin", "Amended Meso", "Control"), labels = c("Lam", "Meso", "Cont"))
 
 #Remove TaxonShort_f with Abundance lower than 5%
 Total_community_comp <- subset(Total_community_comp, Abundance>=5)
 
 #Choosing a color scheme
-lam_color = c("#FFC425", "grey60", "grey60")
+lam_color = c("grey60", "grey60")
 
 
 #Make the bubble plot - first, group the families by Phylum
@@ -662,7 +661,7 @@ xx = ggplot(Total_community_comp, aes(x=IncubationTime_f, y = TaxonShort_f)) +
         panel.spacing = unit(0, "mm"), legend.position = "right") +  
   scale_fill_manual(values = lam_color, guide = FALSE) + 
   scale_y_discrete(limits = rev(levels(Total_community_comp$Abundance)))+
-  facet_nested(Phylum ~ Treatment_f + Depth_f + Station_f + Substrate_f, scales="free_y", space="free_y", switch="y")
+  facet_nested(Phylum ~ Treatment_f + Depth_f + Station_f, scales="free_y", space="free_y", switch="y")
 
 
 #Phylum MUST be included in facet_nested before the ~
